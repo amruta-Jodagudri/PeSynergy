@@ -1,0 +1,1019 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>AIPayXpert</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="Innovative AI Payment Solutions" name="keywords">
+    <meta content="Innovative AI Payment Solutions" name="description">
+
+    <!-- Favicon -->
+    <link href="img/logo1.png" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&family=Rubik:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/bbbootstrap/libraries@main/choices.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+    <style>
+        h1 {
+            text-align: center;
+        }
+        h2 {
+            margin: 0;
+        }
+        #multi-step-form-container {
+            margin-top: 5rem;
+        }
+        .text-center {
+            text-align: center;
+        }
+        .mx-auto {
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .pl-0 {
+            padding-left: 0;
+        }
+        .button {
+            padding: 0.7rem 1.5rem;
+            border: 1px solid #020c39;
+            background-color: #020e3f;
+            color: #fff;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .submit-btn {
+            border: 1px solid #f9931e;
+            background-color: #f9931e;
+        }
+        .mt-3 {
+            margin-top: 2rem;
+        }
+        .d-none {
+            display: none;
+        }
+        .form-group-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+        }
+        .form-group {
+            margin: 0.5rem;
+            flex: 1 1 45%;
+            min-width: 250px; 
+        }
+        @media (max-width: 575.98px) {
+            .form-group {
+                flex: 1 1 100%;
+            }
+        }
+        .text-center {
+            text-align: center;
+        }
+        .mx-auto {
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .form-step {
+            border: 1px solid rgba(0, 0, 0, 0.1);
+            border-radius: 20px;
+            padding: 3rem;
+        }
+        .form-step h2 {
+        text-align: center;
+        }
+        .font-normal {
+            font-weight: normal;
+        }
+        ul.form-stepper {
+            counter-reset: section;
+            margin-bottom: 3rem;
+        }
+        ul.form-stepper .form-stepper-circle {
+            position: relative;
+        }
+        ul.form-stepper .form-stepper-circle span {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translateY(-50%) translateX(-50%);
+        }
+        .form-stepper-horizontal {
+            position: relative;
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+            justify-content: space-between;
+        }
+        ul.form-stepper > li:not(:last-of-type) {
+            margin-bottom: 0.625rem;
+            -webkit-transition: margin-bottom 0.4s;
+            -o-transition: margin-bottom 0.4s;
+            transition: margin-bottom 0.4s;
+        }
+        .form-stepper-horizontal > li:not(:last-of-type) {
+            margin-bottom: 0 !important;
+        }
+        .form-stepper-horizontal li {
+            position: relative;
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-flex: 1;
+            -ms-flex: 1;
+            flex: 1;
+            -webkit-box-align: start;
+            -ms-flex-align: start;
+            align-items: start;
+            -webkit-transition: 0.5s;
+            transition: 0.5s;
+        }
+        .form-stepper-horizontal li:not(:last-child):after {
+            position: relative;
+            -webkit-box-flex: 1;
+            -ms-flex: 1;
+            flex: 1;
+            height: 1px;
+            content: "";
+            top: 32%;
+        }
+        .form-stepper-horizontal li:after {
+            background-color: #dee2e6;
+        }
+        .form-stepper-horizontal li.form-stepper-completed:after {
+            background-color: #f9931e;
+        }
+        .form-stepper-horizontal li:last-child {
+            flex: unset;
+        }
+        ul.form-stepper li a .form-stepper-circle {
+            display: inline-block;
+            width: 40px;
+            height: 40px;
+            margin-right: 0;
+            line-height: 1.7rem;
+            text-align: center;
+            background: rgba(0, 0, 0, 0.38);
+            border-radius: 50%;
+        }
+        .form-stepper .form-stepper-active .form-stepper-circle {
+            background-color: #f9931e !important;
+            color: #fff;
+        }
+        .form-stepper .form-stepper-active .label {
+            color: #f9931e !important;
+        }
+        .form-stepper .form-stepper-active .form-stepper-circle:hover {
+            background-color: #f9931e !important;
+            color: #fff !important;
+        }
+        .form-stepper .form-stepper-unfinished .form-stepper-circle {
+            background-color: #f8f7ff;
+        }
+        .form-stepper .form-stepper-completed .form-stepper-circle {
+            background-color: #020c39 !important;
+            color: #fff;
+        }
+        .form-stepper .form-stepper-completed .label {
+            color: #020c39 !important;
+        }
+        .form-stepper .form-stepper-completed .form-stepper-circle:hover {
+            background-color: #020c39 !important;
+            color: #fff !important;
+        }
+        .form-stepper .form-stepper-active span.text-muted {
+            color: #fff !important;
+        }
+        .form-stepper .form-stepper-completed span.text-muted {
+            color: #fff !important;
+        }
+        .form-stepper .label {
+            font-size: 1rem;
+            margin-top: 0.5rem;
+        }
+        .form-stepper a {
+            cursor: default;
+        }
+
+        .form-navigation {
+            display: flex;
+            justify-content: center;
+            margin-top: 1rem;
+            
+        }
+
+        .form-navigation .button {
+            margin: 0 0.5rem;
+        }
+
+        .footer-logo:hover{
+            transform: scale(1.1);
+            transition: all 300ms ease;
+        }
+        .imgicon{
+            width: 30px;
+            height: 30px;
+        }
+        .imgicon:hover{
+            width: 35px;
+            height: 35px;
+            transition: all ease-in-out 0.15s;
+        }
+        .contacticon{
+            width: clamp(3rem, 5.5vw, 5rem);
+            height: clamp(3rem, 5.5vw, 5rem);
+        }
+        .contacticon:hover{
+            transform: scale(1.1);
+            transition: all ease-in-out 0.25s;
+        }
+        .contacttext{
+            font-size: clamp(1rem, 2.5vw, 2rem); 
+        }
+        .staticicon{
+            height: 28px;
+            width: 28px;
+        }
+        .staticicon:hover{
+            height: 30px;
+            width: 30px;
+            transition: all ease-in-out 0.15s;
+        }
+        .icon-button {
+            position: relative;
+        }
+        .icon-button i {
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .icon-button:hover i {
+            transform: scale(1.3);
+        }
+
+        .modal {
+            display: none;
+            position: fixed;
+            z-index: 1;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            overflow: auto;
+            overflow-y: hidden;
+            background-color: rgba(0,0,0,0.4);
+        }
+        .modal-content {
+            background-color: #ffffff;
+            margin: 15% auto;
+            border-radius: 1rem;
+            padding: 1rem;
+            width: 90%;
+            height: 30rem;
+            overflow: scroll;
+        }
+        .close {
+            color: #aaa;
+            float: right;
+            width: 2rem;
+            font-size: 28px;
+            font-weight: bold;
+        }
+        .close:hover,
+        .close:focus {
+            color: black;
+            text-decoration: none;
+            cursor: pointer;
+        }
+        .carddata{
+            width: 47%;
+            margin: 0.5rem;
+            padding: 1rem;
+            border-radius: 1rem;
+            background-color: #07bafc;
+        }
+        @media (min-width: 576px) {
+            .carddata {
+                width: 100%;
+            }
+        }
+        @media (max-width: 575.98px) {
+            .carddata {
+                width: 100%;
+            
+            }
+        }
+        @media (min-width: 768px) {
+        
+            .carddata {
+                width: 47%;
+            }
+        }
+
+        @media (min-width: 992px) {
+        
+            .carddata {
+                width: 47%;
+            }
+        }
+
+        @media (min-width: 540px) {
+            .mm {
+                margin-left: 10px;
+            }
+        }
+
+        @media (min-width: 700px) {
+            .mm {
+                margin-left: 10px;
+            }
+        }
+
+        @media (min-width: 800px) {
+            .mm {
+                margin-left: 20px;
+            }
+        }
+
+        @media (min-width: 968px) {
+            .mm {
+                margin-left: 30px;
+            }
+        }
+        
+        .pgdata{
+            color: rgb(255, 255, 255);
+            font-weight: 1200;
+            font-family: 'Times New Roman', Times, serif;
+            font-style: italic;
+            font-size: 1.5rem;
+            text-align: center;
+        }
+        .pgdata:hover{
+            transform: scale(1.08);
+            transition: all 300ms ease-in-out;
+        }
+
+        .lighter-text {
+            font-weight: 100; 
+            font-size: x-small;
+            color: #99bcfa;
+            font-family: 'Font-Name', sans-serif; 
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Spinner Start -->
+    <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner"></div>
+    </div>
+    <!-- Spinner End -->
+
+    <!-- Topbar Start -->
+    <div class="container-fluid bg-dark px-5 d-none d-lg-block">
+        <div class="row gx-0">
+            <div class="col-lg-8 text-center text-lg-start mb-2 mb-lg-0">
+                <div class="d-inline-flex align-items-center" style="height: 45px;">
+                    <small class="text-white">Our AI innovation effortlessly connects you with the Perfect Payment Partner</small>
+                </div>
+            </div>
+            <div class="col-lg-4 text-center text-lg-end">
+                <div class="d-inline-flex align-items-center" style="height: 45px;">
+                    <a class="me-2" href="https://www.linkedin.com/company/pesynergy/"><img  src="img/linkedin.png" alt="linkedin" class="imgicon"></a>
+                    <a class="me-2"  href="https://x.com/PeSynergy"><img  src="img/twitter.png" alt="twitter" class="imgicon"></a>
+                    <a class="me-2" href="https://www.youtube.com/@PeSynergy"><img  src="img/youtube.png" alt="youtube" class="imgicon"></a>
+                    <a class="me-2" href="https://www.facebook.com/profile.php?id=61561035356324"><img  src="img/Facebook.png" alt="Facebook" class="imgicon"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Topbar End -->
+    <div class=" mt-4 py-1 pe-1" style="z-index: 2;width: 3rem;height: 10rem; position:fixed;top:9rem; border-radius: 0px 9px 9px 0px ; background-color: rgba(0, 0, 0, 0.338);">
+        <a class="m-2 d-block"  href="skype:live:.cid.ecdfa979459197d7?chat"><img src="img/Skype.png" alt="" class="staticicon"></a>
+        <a class="m-2 d-block" href="https://t.me/Pesynergy"><img src="img/telegram.png" alt="" class="staticicon"></a>
+        <a class=" m-2 d-block" href="https://wa.me/+919415186482"><img src="img/whatsapp.png" alt="" class="staticicon"></a>
+        <a class="m-2 d-block" href="mailto:abhishek@pesynergy.com"><img src="img/gmail.png" alt="" class="staticicon"></a>
+    </div>
+
+
+    <!-- Navbar Start -->
+    <div class="container-fluid position-relative p-0">
+        <nav class="navbar navbar-expand-lg navbar-dark px-5 py-3 py-lg-0">
+            <a href="index.html" class="navbar-brand p-0">
+                <h1 class="m-1" style="font-size: clamp(1rem, 4vw, 2rem);">
+                <img src="img/logo.jpeg" style="height: auto; width: clamp(3rem, 1vw, 4.5rem); border-radius: 1.5rem 0rem 1.5rem 0rem;"  alt="">
+                <span style="color:#dd7130;">Pe</span><span style="color:#06A3DA;">Synergy</span></h1>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                <span class="fa fa-bars"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <div class="navbar-nav ms-auto py-0">
+                    <a href="index.html" class="nav-item nav-link ">Home</a>
+                    
+                    <div class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Company</a>
+                        <div class="dropdown-menu m-0">
+                            <a href="vision.html" class="dropdown-item">Vision</a>
+                            <a href="mission.html" class="dropdown-item">Mission</a>
+                            <a href="expertise.html" class="dropdown-item">Our Expertise</a>
+                        </div>
+                    </div>
+                    <a href="work.html" class="nav-item nav-link">What we do</a>
+                    <a href="aipayxpert.html" class="nav-item nav-link  active">AIPayXpert</a>
+                    <a href="partners.html" class="nav-item nav-link ">Our Partners</a>
+                    <a href="testimonial.html" class="nav-item nav-link">Testimonials</a>
+                    <a href="contact.html" class="nav-item nav-link">Contact Us</a>
+                </div>
+            </div>
+        </nav>
+
+        <!-- <div class="container-fluid bg-primary py-5 bg-header" style="margin-bottom: 20px;">
+            <div class="row py-5">
+                <div class="col-12 pt-lg-5 mt-lg-5 text-center">
+                    <h1 class="display-4 text-white animated zoomIn">Our Mission</h1>
+                </div>
+            </div>
+        </div> -->
+        <div class="container-fluid bg-primary py-5 bg-header" style="margin-bottom: 20px;">
+            <div class="row py-5">
+                <div class="col-12 pt-lg-5 mt-lg-5 text-center">
+                    <h1 class="display-4 text-white animated zoomIn">
+                        AIPayXpert<span class="lighter-text">&nbsp;&nbsp;&nbsp;(Version 1.0)</span>
+                    </h1>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Navbar End -->
+
+    <!-- Blog Start -->
+    <div class="container-fluid wow fadeInUp" data-wow-delay="0.1s">
+        <div class="section-title text-center position-relative p-3 mb-5 mx-auto" style="max-width: 74rem;">
+            <h2 class="text-center" style="margin: 5px;">Discover the Best Payment Gateway options for your business with the help of our AI Payment Expert</h2>
+        </div>
+        <div class="container py-5 rounded">
+            <div class="row g-5">
+                <div id="multi-step-form-container">
+                    <!-- Form Steps / Progress Bar -->
+                    <ul class="form-stepper form-stepper-horizontal text-center  mx-auto pl-0">
+                        <!-- Step 1 -->
+                        <li class="form-stepper-active text-center form-stepper-list" step="1">
+                            <a class="mx-2">
+                                <span class="form-stepper-circle">
+                                    <span>1</span>
+                                </span>
+                                <div class="label" style="font-size: xx-small;">Contact Details</div>
+                            </a>
+                        </li>
+                        <!-- Step 2 -->
+                        <li class="form-stepper-unfinished text-center form-stepper-list" step="2">
+                            <a class="mx-2">
+                                <span class="form-stepper-circle text-muted">
+                                    <span>2</span>
+                                </span>
+                                <div class="label text-muted" style="font-size: xx-small;">Company Details</div>
+                            </a>
+                        </li>
+                        <!-- Step 3 -->
+                        <li class="form-stepper-unfinished text-center form-stepper-list" step="3">
+                            <a class="mx-2">
+                                <span class="form-stepper-circle text-muted">
+                                    <span>3</span>
+                                </span>
+                                <div class="label text-muted" style="font-size: xx-small;">Solution Type Details</div>
+                            </a>
+                        </li>
+                    </ul>
+                    <!-- Step Wise Form Content -->
+                    <form id="dynamicForm">
+                        <!-- Step 1 Content -->
+                        <section id="step-1" class="form-step">
+                            <h2 class="font-normal">Contact Details</h2>
+                            <!-- Step 1 input fields -->
+                            <div class="mt-3 form-group-container">
+                                <div class="form-group col-lg-5 col-sm-12 m-2">
+                                    <label for="cname" style="color: black;"><strong>Company Name</strong> <sup style="color: red;">*</sup></label>
+                                    <input type="text" class="form-control" id="cname" name="cname" placeholder="Enter Name" required>
+                                </div>
+                                <div class="form-group col-lg-5 col-sm-12 m-2">
+                                    <label for="email" style="color: black;"><strong>Enter Email</strong><sup style="color: red;">*</sup></label>
+                                    <input type="email" class="form-control" id="email" name="email" placeholder="Enter Email" required>
+                                </div>
+                                <div class="form-group col-lg-5 col-sm-12 m-2">
+                                    <label for="contactInfo" style="color: black;"><strong>Contact</strong><sup style="color: red;">*</sup></label>
+                                    <input type="text" class="form-control" id="contactInfo" name="contactInfo" placeholder="Enter Skype ID or Telegram ID or Phone No." required>
+                                </div>
+                            </div>
+                            <div class="mt-3 form-navigation">
+                                <button class="button btn-navigate-form-step" type="button" step_number="2">Next</button>
+                            </div>
+                        </section>
+                        <!-- Step 2 Content, default hidden on page load. -->
+                        <section id="step-2" class="form-step d-none">
+                            <h2 class="font-normal">Company Details</h2>
+                            <!-- Step 2 input fields -->
+                            <div class="mt-3 form-group-container">
+                                <div class="form-group col-lg-5 col-sm-12 m-2">
+                                    <label for="country" style="color: black;"><strong>Country of Incorporation</strong></label>
+                                    <input type="text" class="form-control" id="country" name="country" placeholder="Enter Country">
+                                </div>
+                                <div class="form-group col-lg-5 col-sm-12 m-2">
+                                    <label for="url" style="color: black;"><strong>Website URL</strong><sup style="color: red;">*</sup></label>
+                                    <input type="text" class="form-control" id="url" name="url" placeholder="Enter URL" required>
+                                </div>
+                                <div class="form-group col-lg-5 col-sm-12 m-2">
+                                    <label for="volume" style="color: black;"><strong>Monthly Volume</strong><sup style="color: red;">*</sup></label>
+                                    <input type="text" class="form-control" id="volume" name="volume" placeholder="Enter Volume" required>
+                                </div>
+                                <div class="form-group col-lg-5 col-sm-12 m-2">
+                                    <label for="tpercent" style="color: black;"><strong>Target Country</strong> <sup style="color: red;">*</sup></label>
+                                    <section>
+                                        <div class="row d-flex justify-content-center">
+                                            <div class="col-md-12">
+                                                <select id="tpercent" name="tpercent" class="bg-white" placeholder="Select Country" multiple>
+                                                </select>
+                                            </div>
+                                        </div>
+                                    </section>
+                                </div>
+                            </div>
+                            <div class="mt-3 form-navigation">
+                                <button class="button btn-navigate-form-step" type="button" step_number="1">Prev</button>
+                                <button class="button btn-navigate-form-step" type="button" step_number="3">Next</button>
+                            </div>
+                        </section>
+                        <!-- Step 3 Content, default hidden on page load. -->
+                        <section id="step-3" class="form-step d-none">
+                            <h2 class="font-normal">Solution Type Details</h2>
+                            <!-- Step 3 input fields -->
+                            <div class="mt-3 form-group-container">
+                                <div class="form-group col-lg-5 col-sm-12 px-0 mx-0">
+                                    <label for="solutiontype" style="color: black;"><strong>Solution Type</strong> <sup style="color: red;">*</sup></label>
+                                    <select class="custom-select d-block w-100 p-2" id="solutiontype" name="solutiontype" required onchange="updateExactSolutionType()">
+                                        <option value="" selected>Choose...</option>
+                                        <option value="APMs">APMs</option>
+                                        <option value="cards">Cards</option>
+                                        <option value="bankwire">Bank Wire</option>
+                                    </select>
+                                </div>
+                                <div class="form-group col-lg-5 col-sm-12 px-0 mx-0">
+                                    <label for="solution" style="color: black;"><strong>Exact Solution Requirement</strong> <sup style="color: red;">*</sup></label>
+                                    <select class="custom-select d-block w-100 p-2" id="solution" name="solution" required>
+                                        <option value="" selected>Choose...</option>
+                                    </select>
+                                </div>
+                                <div class="form-group col-lg-5 col-sm-12 px-0 mx-0">
+                                    <label for="transactionstype" style="color: black;"><strong>Transactions Type</strong> <sup style="color: red;">*</sup></label>
+                                    <select class="custom-select d-block w-100 p-2" id="transactionstype" name="transactionstype" required>
+                                        <option value="" selected>Choose...</option>
+                                        <option value="domestic">Domestic</option>
+                                        <option value="international">International</option>
+                                        <option value="dominter">Domestic + International</option>
+                                    </select>
+                                </div>
+                                <div class="form-group col-lg-5 col-sm-12 px-0 mx-0">
+                                    <label for="chargeback" style="color: black;"><strong>Chargeback %</strong> <sup style="color: red;">*</sup></label>
+                                    <input type="text" class="form-control" id="chargeback" name="chargeback" placeholder="" required>
+                                </div>
+                            </div>
+                            <div class="mt-3 form-navigation">
+                                <button class="button btn-navigate-form-step" type="button" step_number="2">Prev</button>
+                                <button type="submit" id="exploreBtn" class="button submit-btn">EXPLORE</button>
+                            </div>
+                        </section>
+                    </form>
+                    <div id="myModal" class="modal">
+                        <div class="modal-content">
+                            <span class="close">&times;</span>
+                            <div id="modalOutput" class="d-flex align-items-center flex-wrap"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Blog End -->
+    
+
+    <!-- Footer Start -->
+    <footer class="container-fluid text-light mt-5 wow fadeInUp" data-wow-delay="0.1s" style="background: #091E3E; visibility: visible; animation-delay: 0.1s; animation-name: fadeInUp;">
+        <div class="container">
+            <div class="row gx-5 align-items-center">
+                <div class="col-lg-4 col-md-12 text-center text-md-center p-3" style="background: #06A3DA;">
+                    <a href="/" class="navbar-brand">
+                        <h1 class="m-1">
+                            <img src="/img/logo.jpeg" class="footer-logo" style="height: auto; width: 4.5rem; border-radius: 1.5rem 0rem 1.5rem 0rem;" alt="">
+                            <span style="color: #dd7130;">Pe</span><span style="color: rgb(3, 61, 84);">Synergy</span>
+                        </h1>
+                    </a>
+                    <p class="text-center" style="text-align: justify; padding: 10px 23px 23px 23px; font-size: 15px;">PeSynergy uses innovative AI to pair merchants with the best PSPs, making onboarding seamless, safeguarding transactions, and delivering personalized support and scalable growth options.</p>
+                </div>
+
+                <div class="col-lg-4 col-md-6 col-sm-6 mb-lg-5 mb-md-5 mb-sm-5 mt-xs-3 d-flex justify-content-start p-2">
+                    <div style="margin-top: 10px; margin-left: 20px;" class="ms-lg-5">
+                            <div class="section-title section-title-sm position-relative pb-3 mb-4">
+                                <h3 class="text-light mb-0">Get In Touch</h3>
+                            </div>
+                            <div class="d-flex mb-2">
+                                <i class="bi bi-geo-alt text-primary me-2"></i>
+                                <p class="mb-0">D-49B, 
+                                First Floor, 
+                                Sector 26, 
+                                Noida-201301 (UP)</p>
+                            </div>
+                            <div class="d-flex mb-2">
+                                <i class="bi bi-envelope-open text-primary me-2"></i>
+                                <a href="mailto:contact@pesynergy.com" class="mb-0" style="color: white;">contact@pesynergy.com</a>
+                            </div>
+                            <div class="d-flex mb-2">
+                                <i class="bi bi-telephone text-primary me-2"></i>
+                                <a href="tel:+919415186482" class="mb-0" style="color: white;">+91 9415186482</a>
+                            </div>
+                            
+                        </div>
+                    </div>
+
+                <!-- Quick Links -->
+                <div class="col-lg-4 col-md-6 col-sm-6 text-center p-4">
+                    <div style="margin-top: 10px;" class="d-flex flex-column align-items-start">
+                        <div class="section-title section-title-sm position-relative pb-3 mb-0 ">
+                            <h3 class="text-light mb-0">Quick Links</h3>
+                        </div>
+                        <div class="link-animated d-flex flex-column align-items-start mt-3">
+                            <a class="text-light mb-2" href="index.html"><i class="bi bi-arrow-right text-primary me-2"></i>Home</a>
+                            <a class="text-light mb-2" href="work.html"><i class="bi bi-arrow-right text-primary me-2"></i>What We Do</a>
+                            <a class="text-light mb-2" href="aipayxpert.html"><i class="bi bi-arrow-right text-primary me-2"></i>AIPayXpert</a>
+                            <a class="text-light mb-2" href="partners.html"><i class="bi bi-arrow-right text-primary me-2"></i>Our Partners</a>
+                            <a class="text-light mb-2" href="testimonial.html"><i class="bi bi-arrow-right text-primary me-2"></i>Testimonial</a>
+                            <a class="text-light" href="contact.html"><i class="bi bi-arrow-right text-primary me-2"></i>Contact Us</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Bottom Section -->
+        <div class="container-fluid text-white" style="background: #061429;">
+            <div class="container text-center">
+                <div class="row justify-content-center">
+                    <div class="col-12">
+                        <div class="d-flex align-items-center flex-wrap justify-content-center" style="height: auto;">
+                            <p class="my-1 col-lg-3 col-sm-12">© <a class="text-white border-bottom" href="#">PeSynergy</a>. All Rights Reserved.</p>
+                            <div class="col-lg-9 col-sm-12 text-center text-lg-end p-2">
+                                <div class="d-inline-flex align-items-center justify-content-center flex-wrap">
+                                    <a class="me-2" href="https://www.linkedin.com/company/pesynergy/"><img src="/img/linkedin.png" alt="linkedin" class="imgicon" style="width: 30px; height: 30px;"></a>
+                                    <a class="me-2" href="https://x.com/PeSynergy"><img src="/img/twitter.png" alt="twitter" class="imgicon" style="width: 30px; height: 30px;"></a>
+                                    <a class="me-2" href="https://www.youtube.com/@PeSynergy"><img src="/img/youtube.png" alt="youtube" class="imgicon" style="width: 30px; height: 30px;"></a>
+                                    <a class="me-2" href="https://www.facebook.com/profile.php?id=61561035356324"><img src="/img/Facebook.png" alt="Facebook" class="imgicon" style="width: 30px; height: 30px;"></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Footer End -->
+
+    <!-- Footer End -->
+
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square rounded back-to-top"><i class="bi bi-arrow-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/bbbootstrap/libraries@main/choices.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+    <script>
+
+    document.addEventListener('DOMContentLoaded', () => {
+    const navigateToFormStep = (stepNumber) => {
+        document.querySelectorAll(".form-step").forEach((formStepElement) => {
+            formStepElement.classList.add("d-none");
+        });
+        document.querySelectorAll(".form-stepper-list").forEach((formStepHeader) => {
+            formStepHeader.classList.add("form-stepper-unfinished");
+            formStepHeader.classList.remove("form-stepper-active", "form-stepper-completed");
+        });
+        document.querySelector("#step-" + stepNumber).classList.remove("d-none");
+        const formStepCircle = document.querySelector('li[step="' + stepNumber + '"]');
+        formStepCircle.classList.remove("form-stepper-unfinished", "form-stepper-completed");
+        formStepCircle.classList.add("form-stepper-active");
+
+        for (let index = 0; index < stepNumber; index++) {
+
+            const formStepCircle = document.querySelector('li[step="' + index + '"]');
+
+            if (formStepCircle) {
+                formStepCircle.classList.remove("form-stepper-unfinished", "form-stepper-active");
+                formStepCircle.classList.add("form-stepper-completed");
+            }
+        }
+    };
+    document.querySelectorAll(".btn-navigate-form-step").forEach((formNavigationBtn) => {
+        formNavigationBtn.addEventListener("click", () => {
+            const stepNumber = parseInt(formNavigationBtn.getAttribute("step_number"));
+            navigateToFormStep(stepNumber);
+        });
+    });
+
+    
+    
+    
+    
+    
+    
+    
+    let maindata;
+
+    fetch('data.json')
+        .then(response => {
+            if (!response.ok) {
+                throw new Error('Network response was not ok ' + response.statusText);
+            }
+            return response.json();
+        })
+        .then(data => {
+            maindata = data;
+            populateCountryDropdown(data.AIPayXpert);
+        })
+        .catch(error => {
+            console.error('There was a problem with the fetch operation:', error);
+        });
+
+    function populateCountryDropdown(countries) {
+        const select = document.getElementById('tpercent');
+        countries.forEach(country => {
+            const option = document.createElement('option');
+            option.value = country.Country;
+            option.textContent = country.Country;
+            select.appendChild(option);
+        });
+
+        new Choices('#tpercent', {
+            removeItemButton: true,
+            maxItemCount: 196,
+            searchResultLimit: 196,
+            renderChoiceLimit: 196
+        });
+    }
+
+    document.getElementById('solutiontype').addEventListener('change', function(event) {
+        const selectedSolutionType = event.target.value;
+        const selectedCountries = Array.from(document.getElementById('tpercent').selectedOptions).map(option => option.value);
+        updateExactSolutionType(selectedSolutionType, selectedCountries);
+        checkRequiredFields();
+    });
+
+    document.getElementById('tpercent').addEventListener('change', function(event) {
+        const selectedSolutionType = document.getElementById('solutiontype').value;
+        const selectedCountries = Array.from(event.target.selectedOptions).map(option => option.value);
+        updateExactSolutionType(selectedSolutionType, selectedCountries);
+        checkRequiredFields();
+    });
+
+    function updateExactSolutionType(solutionType, selectedCountries) {
+        const exactSolutionSelect = document.getElementById('solution');
+        exactSolutionSelect.innerHTML = '';
+
+        if (selectedCountries.length === 0 || !solutionType) return;
+
+        let solutions = maindata.AIPayXpert
+            .filter(country => selectedCountries.includes(country.Country))
+            .map(country => country[solutionType])
+            .filter(solution => solution);
+
+        if (solutions.length === 0) return;
+
+        let allSolutions = solutions.join(',').split(',');
+
+        let uniqueSolutions = allSolutions.filter((item, index) => allSolutions.indexOf(item) === index && item.trim() !== '');
+
+        uniqueSolutions.sort();
+
+        uniqueSolutions.forEach(solution => {
+            const option = document.createElement('option');
+            option.value = solution;
+            option.textContent = solution;
+            exactSolutionSelect.appendChild(option);
+        });
+    }
+
+    const requiredFields = document.querySelectorAll('[required]');
+    requiredFields.forEach(field => {
+        field.addEventListener('input', checkRequiredFields);
+    });
+
+    function checkRequiredFields() {
+        const emailField = document.querySelector('[name="email"]');
+        const emailValue = emailField.value.trim();
+        const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+        const isEmailValid = emailRegex.test(emailValue);
+
+        const isValid = Array.from(requiredFields).every(field => field.value.trim() !== '') && isEmailValid;
+
+        document.getElementById('exploreBtn').disabled = !isValid;
+
+        if (!isEmailValid && emailValue !== '') {
+            emailField.setCustomValidity('Please enter a valid email address.');
+        } else {
+            emailField.setCustomValidity('');
+        }
+    }
+
+    document.getElementById('exploreBtn').addEventListener('click', async function() {
+        
+        const spinner = document.getElementById('spinner');
+        spinner.classList.add('show'); 
+        
+        const selectedCountries = Array.from(document.getElementById('tpercent').selectedOptions).map(option => option.value);
+        const transactionType = document.getElementById('transactionstype').value;
+
+        if (!selectedCountries.length || !transactionType) {
+            alert("Please fill all required fields");
+            spinner.classList.remove('show');
+            return;
+        }
+
+        try {
+            await sendEmail();
+            openModalWithOutput(selectedCountries, transactionType);
+        } catch (error) {
+            console.error('Error sending email:', error);
+        } finally {
+        spinner.classList.remove('show'); // Hide the spinner once everything is done
+        }
+    });
+
+    async function sendEmail() {
+        return new Promise((resolve, reject) => {
+            const formData = new FormData(document.getElementById('dynamicForm'));
+            const formProps = Object.fromEntries(formData);
+            const selectedCountries = Array.from(document.getElementById('tpercent').selectedOptions).map(option => option.value);
+
+            const emailbody = `
+                Company Name :- ${formProps.cname} ,
+                Email :- ${formProps.email} ,
+                Contact-Info :- ${formProps.contactInfo} ,
+                Country of Incorporation :- ${formProps.country} ,
+                UBO’s Nationality :- ${formProps.nationality} ,
+                Website URL :- ${formProps.url} ,
+                Monthly Volume :- ${formProps.volume} ,
+                Target Regions with % split :- ${selectedCountries.join(', ')} ,
+                Licensed/Unlicensed/NA :- ${formProps.license} ,
+                Recurring Billing (Yes/No) :- ${formProps.billing} ,
+                Solution Type :- ${formProps.solutiontype} ,
+                Transaction Type :- ${formProps.transactionstype} ,
+                Exact Solution Requirement :- ${formProps.solution} ,
+                Chargeback % :- ${formProps.chargeback} ,
+            `;
+
+            console.log('Sending email:', emailbody);
+
+            emailjs.init("golPqgGPz8iZ1WZqw");
+
+            const param = {
+                subject: "Inquiry received for Pesynergy",
+                // to: "gautamvarshney1999@gmail.com",
+                to: "contact@pesynergy.com",
+                message: emailbody
+            };
+            let serviceID = "service_3d75rhq";
+            let templateID = "template_rmvzs8i";
+
+            emailjs.send(serviceID, templateID, param)
+                .then(res => {
+                    console.log("email sent successfully");
+                    resolve();
+                })
+                .catch(err => {
+                    console.error('Error sending email:', err);
+                    reject(err);
+                });
+        });
+    }
+
+    function openModalWithOutput(selectedCountries, transactionType) {
+        const modal = document.getElementById('myModal');
+        const modalOutput = document.getElementById('modalOutput');
+        modalOutput.innerHTML = '';
+
+        selectedCountries.forEach(countryName => {
+            const countryData = maindata.AIPayXpert.find(country => country.Country === countryName);
+
+            if (countryData) {
+                const cardDiv = document.createElement('div');
+                cardDiv.classList.add('carddata');
+
+                const countryTitle = document.createElement('h4');
+                countryTitle.textContent = countryName;
+                cardDiv.appendChild(countryTitle);
+
+                if (transactionType === 'domestic') {
+                    const dpgTitle = document.createElement('h5');
+                    dpgTitle.textContent = 'Domestic Payment Gateways:';
+                    cardDiv.appendChild(dpgTitle);
+
+                    const dpgList = document.createElement('h6');
+                    dpgList.classList.add('pgdata');
+                    dpgList.textContent = countryData.dpg;
+                    cardDiv.appendChild(dpgList);
+                }
+
+                if (transactionType === 'international') {
+                    const ipgTitle = document.createElement('h5');
+                    ipgTitle.textContent = 'International Payment Gateways:';
+                    cardDiv.appendChild(ipgTitle);
+
+                    const ipgList = document.createElement('h6');
+                    ipgList.classList.add('pgdata');
+                    ipgList.textContent = countryData.ipg;
+                    cardDiv.appendChild(ipgList);
+                }
+
+                if (transactionType === 'dominter') {
+                    const dpgTitle = document.createElement('h5');
+                    dpgTitle.textContent = 'Domestic Payment Gateways:';
+                    cardDiv.appendChild(dpgTitle);
+
+                    const dpgList = document.createElement('h6');
+                    dpgList.classList.add('pgdata');
+                    dpgList.textContent = countryData.dpg;
+                    cardDiv.appendChild(dpgList);
+
+                    const ipgTitle = document.createElement('h5');
+                    ipgTitle.textContent = 'International Payment Gateways:';
+                    cardDiv.appendChild(ipgTitle);
+
+                    const ipgList = document.createElement('h6');
+                    ipgList.classList.add('pgdata');
+                    ipgList.textContent = countryData.ipg;
+                    cardDiv.appendChild(ipgList);
+                }
+
+                modalOutput.appendChild(cardDiv);
+            }
+        });
+
+        modal.style.display = 'block';
+
+        document.querySelector('.close').onclick = function() {
+            modal.style.display = 'none';
+        };
+
+        window.onclick = function(event) {
+            if (event.target == modal) {
+                modal.style.display = 'none';
+            }
+        };
+    }
+
+    document.getElementById('dynamicForm').addEventListener('submit', function(event) {
+        event.preventDefault();
+    });
+
+    checkRequiredFields();
+});
+
+
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Home Page</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="Innovative AI Payment Solutions" name="keywords">
+    <meta content="Innovative AI Payment Solutions" name="description">
+
+    <!-- Favicon -->
+    <link href="img/logo1.png" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&family=Rubik:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+    <style>
+        .footer-logo:hover{
+            transform: scale(1.1);
+            transition: all 300ms ease;
+        }
+        .imgicon{
+            width: 30px;
+            height: 30px;
+        }
+        .imgicon:hover{
+            width: 35px;
+            height: 35px;
+            transition: all ease-in-out 0.15s;
+        }
+        .staticicon{
+            height: 28px;
+            width: 28px;
+        }
+        .staticicon:hover{
+            height: 30px;
+            width: 30px;
+            transition: all ease-in-out 0.15s;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Spinner Start -->
+    <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner"></div>
+    </div>
+    <!-- Spinner End -->
+
+
+    <!-- Topbar Start -->
+    <div class="container-fluid bg-dark px-5 d-none d-lg-block">
+        <div class="row gx-0">
+            <div class="col-lg-8 text-center text-lg-start mb-2 mb-lg-0">
+                <div class="d-inline-flex align-items-center" style="height: 45px;">
+                    <small class="text-white">Our AI innovation effortlessly connects you with the Perfect Payment Partner</small>
+                    
+                </div>
+            </div>
+            <div class="col-lg-4 text-center text-lg-end">
+                <div class="d-inline-flex align-items-center" style="height: 45px;">
+                    <a class="me-2" href="https://www.linkedin.com/company/pesynergy/"><img  src="img/linkedin.png" alt="linkedin" class="imgicon"></a>
+                    <a class="me-2"  href="https://x.com/PeSynergy"><img  src="img/twitter.png" alt="twitter" class="imgicon"></a>
+                    <a class="me-2" href="https://www.youtube.com/@PeSynergy"><img  src="img/youtube.png" alt="youtube" class="imgicon"></a>
+                    <a class="me-2" href="https://www.facebook.com/profile.php?id=61561035356324"><img  src="img/Facebook.png" alt="Facebook" class="imgicon"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Topbar End -->
+    <div class=" mt-4 py-1 pe-1" style="z-index: 2;width: 3rem;height: 10rem; position:fixed;top:9rem; border-radius: 0px 9px 9px 0px ; background-color: rgba(0, 0, 0, 0.338);">
+        <a class="m-2 d-block"  href="skype:live:.cid.ecdfa979459197d7?chat"><img src="img/Skype.png" alt="" class="staticicon"></a>
+        <a class="m-2 d-block" href="https://t.me/Pesynergy"><img src="img/telegram.png" alt="" class="staticicon"></a>
+        <a class=" m-2 d-block" href="https://wa.me/+919415186482"><img src="img/whatsapp.png" alt="" class="staticicon"></a>
+        <a class="m-2 d-block" href="mailto:abhishek@pesynergy.com"><img src="img/gmail.png" alt="" class="staticicon"></a>
+    </div>
+
+
+    <!-- Navbar & Carousel Start -->
+    <div class="container-fluid position-relative p-0">
+        <!-- Navbar Start -->
+        <div class="container-fluid position-relative p-0">
+            <nav class="navbar navbar-expand-lg navbar-dark px-5 py-3 py-lg-0">
+                <a href="index.html" class="navbar-brand p-0">
+                    <h1 class="m-1" style="font-size: clamp(1rem, 4vw, 2rem);">
+                    <img src="img/logo.jpeg" style="height: auto; width: clamp(3rem, 1vw, 4.5rem); border-radius: 1.5rem 0rem 1.5rem 0rem;"  alt="">
+                    <span style="color:#dd7130;">Pe</span><span style="color:#06A3DA;">Synergy</span></h1>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                    <span class="fa fa-bars"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <div class="navbar-nav ms-auto py-0">
+                        <a href="index.html" class="nav-item nav-link active">Home</a>
+                        
+                        <div class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Company</a>
+                            <div class="dropdown-menu m-0">
+                                <a href="vision.html" class="dropdown-item">Vision</a>
+                                <a href="mission.html" class="dropdown-item">Mission</a>
+                                <a href="expertise.html" class="dropdown-item">Our Expertise</a>
+                            </div>
+                        </div>
+                        <a href="work.html" class="nav-item nav-link">What we do</a>
+                        <a href="aipayxpert.html" class="nav-item nav-link">AIPayXpert</a>
+                        <a href="partners.html" class="nav-item nav-link ">Our Partners</a>
+                        <a href="testimonial.html" class="nav-item nav-link">Testimonials</a>
+                        <a href="contact.html" class="nav-item nav-link">Contact Us</a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <!-- Navbar End -->
+
+        <div id="header-carousel" class="carousel slide carousel-fade" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="w-100" src="img/bkimg1.jpeg" alt="Image">
+                    <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
+                        <div class="p-3" style="max-width: 1000px;">
+                            <h1 class="display-1 text-white mb-md-4 animated zoomIn" style="font-size: clamp(1.5rem, 4vw, 3.5rem);">Hey, need a reliable & trustworthy <br> Payment Solution?</h1>
+                            <h1 class="display-1 text-white mb-md-4 animated zoomIn" style="font-size: clamp(1.5rem, 4vw, 3.5rem);">You're exactly where you need to be!..</h1>
+                            <a href="contact.html" class="btn btn-primary py-md-3 px-md-5 animated slideInRight"><strong>Contact Us</strong></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img class="w-100" src="img/bkimg2.jpg" alt="Image">
+                    <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
+                        <div class="p-3" style="max-width: 900px;">
+                            <h1 class="display-1 text-white mb-md-4 animated zoomIn" style="font-size: clamp(1.5rem, 4vw, 3.5rem);">Your hunt for the Finest Payment Solution ends here</h1>
+                            <a href="contact.html" class="btn btn-primary py-md-3 px-md-5 animated slideInRight"><strong>Contact Us</strong></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#header-carousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#header-carousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+    <!-- Navbar & Carousel End -->
+
+
+    <div class="fadeInUp wow zoomIn container pt-5" data-wow-delay="0.5s">
+        <div class="section-title position-relative pb-1 mb-4 text-center">
+            <h2>
+                Empowering Merchants and PSPs for Success
+            </h2>
+        </div>
+        <p>
+                PeSynergy is dedicated to helping merchants and Payment Service Providers (PSPs) achieve unparalleled success through our innovative fintech solutions. Utilizing cutting-edge AI technology, we simplify the search for the perfect payment partners, streamlining the onboarding process for PSPs and ensuring a seamless experience.
+        </p>
+        <p>
+                Our platform intelligently matches merchants with the most suitable PSPs based on their unique needs and business models, driving efficiency and profitability. By leveraging advanced analytics and machine learning, PeSynergy provides real-time insights and recommendations, optimizing payment processing and reducing transaction costs.
+        </p>
+        <div class="section-title position-relative pb-1 mb-4 text-center pt-3">
+                <h2>
+                    Our Advanced Platform
+                </h2>
+        </div>
+        <h4>
+                Effortless Onboarding 
+        </h4>
+            <p>
+                Our platform, powered by AI, efficiently connects PSPs with the perfect payment partners, ensuring a smooth and rapid onboarding process.
+            </p>
+        <h4>
+            Secure Transactions 
+        </h4>
+        <p>
+            With our robust technological infrastructure, PeSynergy ensures that all transactions are secure, providing you with peace of mind.
+        </p>
+        <h4>
+            Insightful Data Analysis 
+        </h4>
+        <p>
+            Our platform offers comprehensive data analysis, uncovering valuable insights to help you make informed business decisions.
+        </p>
+        <h4>
+            Personalized Support 
+        </h4>
+        <p>
+            Our team provides support tailored to your particular needs, ensuring you receive the help you need whenever it’s required.
+        </p>
+        <h4>
+            Scalable Solutions 
+        </h4>
+        <p>
+            Designed for growth, PeSynergy supports the scalability of PSPs operations, allowing you to expand your business effortlessly.
+        </p>
+        <p class="pt-2">
+            <strong>
+                Join PeSynergy today and discover how our cutting-edge solutions can drive your success in the fintech industry.
+            </strong>
+        </p>
+    </div>
+
+    <!-- Vendor Start -->
+    <div class="container-fluid pt-5 wow fadeInUp" data-wow-delay="0.1s">
+        <div class="container py-5 mb-5">
+            <div class="bg-white">
+                <div class="owl-carousel vendor-carousel item-center">
+                    <img src="img/partners/amazonpay.png" alt="">
+                    <img src="img/partners/ccavenue.png" alt="">
+                    <img src="img/partners/instamojo.png" alt="">
+                    <img src="img/partners/MobiKwik.png" alt="">
+                    <img src="img/partners/PayPal.svg.png" alt="">
+                    <img src="img/partners/PayU.png" alt="">
+                    <img src="img/partners/PhonePe.png" alt="">
+                    <img src="img/partners/postpay.png" alt="">
+                    <img src="img/partners/Razorpay.png" alt="">
+                    <img src="img/partners/stripe.png" alt="">
+                    <img src="img/partners/worldpay-seeklogo copy.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Vendor End -->
+    
+    <!-- Footer Start -->
+    <footer class="container-fluid text-light mt-5 wow fadeInUp" data-wow-delay="0.1s" style="background: #091E3E; visibility: visible; animation-delay: 0.1s; animation-name: fadeInUp;">
+        <div class="container">
+            <div class="row gx-5 align-items-center">
+                <div class="col-lg-4 col-md-12 text-center text-md-center p-3" style="background: #06A3DA;">
+                    <a href="/" class="navbar-brand">
+                        <h1 class="m-1">
+                            <img src="/img/logo.jpeg" class="footer-logo" style="height: auto; width: 4.5rem; border-radius: 1.5rem 0rem 1.5rem 0rem;" alt="">
+                            <span style="color: #dd7130;">Pe</span><span style="color: rgb(3, 61, 84);">Synergy</span>
+                        </h1>
+                    </a>
+                    <p class="text-center" style="text-align: justify; padding: 10px 23px 23px 23px; font-size: 15px;">PeSynergy uses innovative AI to pair merchants with the best PSPs, making onboarding seamless, safeguarding transactions, and delivering personalized support and scalable growth options.</p>
+                </div>
+
+                <div class="col-lg-4 col-md-6 col-sm-6 mb-lg-5 mb-md-5 mb-sm-5 mt-xs-3 d-flex justify-content-start p-2">
+                    <div style="margin-top: 10px; margin-left: 20px;" class="ms-lg-5">
+                            <div class="section-title section-title-sm position-relative pb-3 mb-4">
+                                <h3 class="text-light mb-0">Get In Touch</h3>
+                            </div>
+                            <div class="d-flex mb-2">
+                                <i class="bi bi-geo-alt text-primary me-2"></i>
+                                <p class="mb-0">D-49B, 
+                                First Floor, 
+                                Sector 26, 
+                                Noida-201301 (UP)</p>
+                            </div>
+                            <div class="d-flex mb-2">
+                                <i class="bi bi-envelope-open text-primary me-2"></i>
+                                <a href="mailto:contact@pesynergy.com" class="mb-0" style="color: white;">contact@pesynergy.com</a>
+                            </div>
+                            <div class="d-flex mb-2">
+                                <i class="bi bi-telephone text-primary me-2"></i>
+                                <a href="tel:+919415186482" class="mb-0" style="color: white;">+91 9415186482</a>
+                            </div>
+                            
+                        </div>
+                    </div>
+
+                <!-- Quick Links -->
+                <div class="col-lg-4 col-md-6 col-sm-6 text-center p-4">
+                    <div style="margin-top: 10px;" class="d-flex flex-column align-items-start">
+                        <div class="section-title section-title-sm position-relative pb-3 mb-0 ">
+                            <h3 class="text-light mb-0">Quick Links</h3>
+                        </div>
+                        <div class="link-animated d-flex flex-column align-items-start mt-3">
+                            <a class="text-light mb-2" href="index.html"><i class="bi bi-arrow-right text-primary me-2"></i>Home</a>
+                            <a class="text-light mb-2" href="work.html"><i class="bi bi-arrow-right text-primary me-2"></i>What We Do</a>
+                            <a class="text-light mb-2" href="aipayxpert.html"><i class="bi bi-arrow-right text-primary me-2"></i>AIPayXpert</a>
+                            <a class="text-light mb-2" href="partners.html"><i class="bi bi-arrow-right text-primary me-2"></i>Our Partners</a>
+                            <a class="text-light mb-2" href="testimonial.html"><i class="bi bi-arrow-right text-primary me-2"></i>Testimonial</a>
+                            <a class="text-light" href="contact.html"><i class="bi bi-arrow-right text-primary me-2"></i>Contact Us</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Bottom Section -->
+        <div class="container-fluid text-white" style="background: #061429;">
+            <div class="container text-center">
+                <div class="row justify-content-center">
+                    <div class="col-12">
+                        <div class="d-flex align-items-center flex-wrap justify-content-center" style="height: auto;">
+                            <p class="my-1 col-lg-3 col-sm-12">© <a class="text-white border-bottom" href="#">PeSynergy</a>. All Rights Reserved.</p>
+                            <div class="col-lg-9 col-sm-12 text-center text-lg-end p-2">
+                                <div class="d-inline-flex align-items-center justify-content-center flex-wrap">
+                                    <a class="me-2" href="https://www.linkedin.com/company/pesynergy/"><img src="/img/linkedin.png" alt="linkedin" class="imgicon" style="width: 30px; height: 30px;"></a>
+                                    <a class="me-2" href="https://x.com/PeSynergy"><img src="/img/twitter.png" alt="twitter" class="imgicon" style="width: 30px; height: 30px;"></a>
+                                    <a class="me-2" href="https://www.youtube.com/@PeSynergy"><img src="/img/youtube.png" alt="youtube" class="imgicon" style="width: 30px; height: 30px;"></a>
+                                    <a class="me-2" href="https://www.facebook.com/profile.php?id=61561035356324"><img src="/img/Facebook.png" alt="Facebook" class="imgicon" style="width: 30px; height: 30px;"></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Footer End -->
+
+    <!-- Footer End -->
+
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square rounded back-to-top mb-4"><i class="bi bi-arrow-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,1768 @@
+{
+    "AIPayXpert":[
+     {
+      "Country": "Afghanistan",
+      "dpg": "Pashtany Bank Payment Gateway, AIB Payment Gateway",
+      "ipg": "PayPal(86% - 93% of merchants appreciate their reliability.), Skrill(73% - 85% of merchants appreciate their reliability.)",
+      "cards": "Visa,Mastercard",
+      "APMs": "E-wallets (emerging)",
+      "Crypto": "Bitcoin,Ethereum",
+      "bankwire": "SWIFT,Local Bank Transfers"
+     },
+     {
+      "Country": "Albania",
+      "dpg": "EasyPay, Paylink.al",
+      "ipg": "PayPal, Skrill",
+      "cards": "Visa,Mastercard",
+      "APMs": "PayLink Wallet,EasyPay",
+      "Crypto": "Bitcoin,Ethereum",
+      "bankwire": "SWIFT,Local Bank Transfers"
+     },
+     {
+      "Country": "Algeria",
+      "dpg": "EDAHABIA, BaridiMob",
+      "ipg": "PayPal, Skrill",
+      "cards": "Visa,Mastercard",
+      "APMs": "CIB E-payment,BaridiMob Wallet",
+      "Crypto": "Bitcoin,Ethereum",
+      "bankwire": "SWIFT,Local Bank Transfers"
+     },
+    {
+    "Country": "Andorra",
+    "dpg": "Andbank Payment Gateway, Crèdit Andorrà Payment Gateway",
+    "ipg": "PayPal, Skrill",
+    "cards": "Visa,Mastercard",
+    "APMs": "Mobile Payments (emerging)",
+    "Crypto": "Bitcoin,Ethereum",
+    "bankwire": "SWIFT,Local Bank Transfers"
+    },
+    {
+    "Country": "Angola",
+    "dpg": "Multicaixa Express, EMIS",
+    "ipg": "PayPal, Skrill",
+    "cards": "Visa,Mastercard",
+    "APMs": "Mobile Wallets (emerging)",
+    "Crypto": "Bitcoin,Ethereum",
+    "bankwire": "SWIFT,Local Bank Transfers"
+   },
+   {
+    "Country": "Antigua and Barbuda",
+    "dpg": "ECAB Payment Gateway, ACB Caribbean Payment Gateway",
+    "ipg": "PayPal, Skrill",
+    "cards": "Visa,Mastercard",
+    "APMs": "Mobile Payments (emerging)",
+    "Crypto": "Bitcoin,Ethereum",
+    "bankwire": "SWIFT,Local Bank Transfers"
+   },
+   {
+    "Country": "Argentina",
+    "dpg": "MercadoPago, TodoPago",
+    "ipg": "PayPal, Skrill",
+    "cards": "Visa,Mastercard,American Express",
+    "APMs": "MercadoPago,Rapipago",
+    "Crypto": "Bitcoin,Ethereum",
+    "bankwire": "SWIFT,Local Bank Transfers"
+   },
+   {
+    "Country": "Armenia",
+    "dpg": "IDram, EasyPay",
+    "ipg": "PayPal, Skrill",
+    "cards": "Visa,Mastercard,ArCa",
+    "APMs": "Idram Wallet,Telcell Wallet",
+    "Crypto": "Bitcoin,Ethereum",
+    "bankwire": "SWIFT,Local Bank Transfers"
+   },
+   {
+    "Country": "Australia",
+    "dpg": "eWAY, Braintree (AU)",
+    "ipg": "PayPal, Stripe",
+    "cards": "Visa,Mastercard,American Express",
+    "APMs": "Afterpay, POLi,Apple Pay",
+    "Crypto": "Bitcoin,Ethereum",
+    "bankwire": "SWIFT, Direct Entry (DE), BECS"
+   },
+   {
+    "Country": "Austria",
+    "dpg": " BestTopPay, Paybox",
+    "ipg": "PayPal, Stripe",
+    "cards": "Visa,Mastercard,Maestro",
+    "APMs": "EPS, Klarna,Apple Pay",
+    "Crypto": "Bitcoin,Ethereum",
+    "bankwire": "SWIFT,SEPA"
+   },
+   {
+    "Country": "Azerbaijan",
+    "dpg": "MilliKart, AzeriCard",
+    "ipg": "PayPal, Skrill",
+    "cards": "Visa,Mastercard",
+    "APMs": "MilliÖdəniş, eManat",
+    "Crypto": "Bitcoin,Ethereum",
+    "bankwire": "SWIFT,Local Bank Transfers"
+   },
+   {
+    "Country": "Bahamas",
+    "dpg": "Kanoo, OmniPay",
+    "ipg": "PayPal, Skrill",
+    "cards": "Visa,Mastercard",
+    "APMs": "Mobile Wallets (emerging)",
+    "Crypto": "Bitcoin,Ethereum",
+    "bankwire": "SWIFT,Local Bank Transfers"
+   },
+   {
+    "Country": "Bahrain",
+    "dpg": "BenefitPay, Sadad Bahrain",
+    "ipg": "PayPal, Skrill",
+    "cards": "Visa,Mastercard",
+    "APMs": "BenefitPay Wallet, eKiosks",
+    "Crypto": "Bitcoin,Ethereum",
+    "bankwire": "SWIFT, Fawri, Fawri+"
+   },
+   {
+    "Country": "Bangladesh",
+    "dpg": "SSLCOMMERZ, ShurjoPay",
+    "ipg": "PayPal, Skrill",
+    "cards": "Visa,Mastercard",
+    "APMs": "bKash, Rocket, Nagad",
+    "Crypto": "Bitcoin,Ethereum",
+    "bankwire": "SWIFT,Local Bank Transfers"
+   },
+   {
+    "Country": "Barbados",
+    "dpg": "CarIFS, SurePay",
+    "ipg": "PayPal, Skrill",
+    "cards": "Visa,Mastercard",
+    "APMs": "MMoney, SurePay Wallet",
+    "Crypto": "Bitcoin,Ethereum",
+    "bankwire": "SWIFT,Local Bank Transfers"
+   },
+   {
+    "Country": "Belarus",
+    "dpg": "BePaid, WebPay",
+    "ipg": "PayPal, Skrill",
+    "cards": "Visa,Mastercard, BELCARD",
+    "APMs": "WebMoney, Yandex.Money",
+    "Crypto": "Bitcoin,Ethereum",
+    "bankwire": "SWIFT,Local Bank Transfers"
+   },
+   {
+    "Country": "Belgium",
+    "dpg": "Ingenico, Mollie",
+    "ipg": "PayPal, Stripe",
+    "cards": "Visa,Mastercard, Bancontact",
+    "APMs": "Bancontact, Payconiq, Klarna",
+    "Crypto": "Bitcoin,Ethereum",
+    "bankwire": "SWIFT,SEPA"
+   },
+   {
+    "Country": "Belize",
+    "dpg": "Atlantic Bank Gateway, Belize Bank Gateway",
+    "ipg": "PayPal, Skrill",
+    "cards": "Visa,Mastercard",
+    "APMs": "Mobile Wallets (emerging)",
+    "Crypto": "Bitcoin,Ethereum",
+    "bankwire": "SWIFT,Local Bank Transfers"
+   },
+   {
+    "Country": "Benin",
+    "dpg": "MTN Mobile Money, Moov Money",
+    "ipg": "PayPal, Skrill",
+    "cards": "Visa,Mastercard",
+    "APMs": "Mobile Money,Airtel Money",
+    "Crypto": "Bitcoin,Ethereum",
+    "bankwire": "SWIFT,Local Bank Transfers"
+   },
+   {
+    "Country": "Bhutan",
+    "dpg": "Tpay, mBoB",
+    "ipg": "PayPal, Skrill",
+    "cards": "Visa,Mastercard",
+    "APMs": "MPay, Mobile Wallets (emerging)",
+    "Crypto": "Bitcoin,Ethereum",
+    "bankwire": "SWIFT,Local Bank Transfers"
+   },
+   {
+    "Country": "Bolivia",
+    "dpg": "PagosNet, ZonaVirtual",
+    "ipg": "PayPal, Skrill",
+    "cards": "Visa,Mastercard",
+    "APMs": "Tigo Money, QR Payments",
+    "Crypto": "Bitcoin,Ethereum",
+    "bankwire": "SWIFT,Local Bank Transfers"
+   },
+   {
+    "Country": "Bosnia and Herzegovina",
+    "dpg": "Bamcard, Monri",
+    "ipg": "PayPal, Skrill",
+    "cards": "Visa,Mastercard",
+    "APMs": "KlikPay, X-Bon",
+    "Crypto": "Bitcoin,Ethereum",
+    "bankwire": "SWIFT,Local Bank Transfers"
+   },
+   {
+    "Country": "Botswana",
+    "dpg": "MyZaka, Orange Money",
+    "ipg": "PayPal, Skrill",
+    "cards": "Visa,Mastercard",
+    "APMs": "Mascom MyZaka, Orange Money",
+    "Crypto": "Bitcoin,Ethereum",
+    "bankwire": "SWIFT,Local Bank Transfers"
+   },
+   {
+    "Country": "Brazil",
+    "dpg": "PagSeguro, MercadoPago",
+    "ipg": "PayPal, Stripe",
+    "cards": "Visa,Mastercard, Elo",
+    "APMs": "Boleto Bancário, PicPay, Pix",
+    "Crypto": "Bitcoin,Ethereum",
+    "bankwire": "SWIFT, TED, DOC"
+   },
+   {
+    "Country": "Brunei",
+    "dpg": "BIBD Payment Gateway, Baiduri Bank Payment Gateway",
+    "ipg": "PayPal, Skrill",
+    "cards": "Visa,Mastercard",
+    "APMs": "Mobile Wallets (emerging)",
+    "Crypto": "Bitcoin,Ethereum",
+    "bankwire": "SWIFT,Local Bank Transfers"
+   },
+   {
+    "Country": "Bulgaria",
+    "dpg": "Borica, ePay.bg",
+    "ipg": "PayPal, Skrill",
+    "cards": "Visa,Mastercard, Borica",
+    "APMs": "ePay.bg, Pay by VIVACOM",
+    "Crypto": "Bitcoin,Ethereum",
+    "bankwire": "SWIFT,SEPA"
+   },
+   {
+    "Country": "Burkina Faso",
+    "dpg": "Orange Money, Moov Money",
+    "ipg": "PayPal, Skrill",
+    "cards": "Visa,Mastercard",
+    "APMs": "Mobile Money,Airtel Money",
+    "Crypto": "Bitcoin,Ethereum",
+    "bankwire": "SWIFT,Local Bank Transfers"
+   },
+   {
+    "Country": "Burundi",
+    "dpg": "Lumicash, EcoCash",
+    "ipg": "PayPal, Skrill",
+    "cards": "Visa,Mastercard",
+    "APMs": "Mobile Money,Airtel Money",
+    "Crypto": "Bitcoin,Ethereum",
+    "bankwire": "SWIFT,Local Bank Transfers"
+   },
+   {
+    "Country": "Cabo Verde",
+    "dpg": "CVMobile, Pagamento Seguro",
+    "ipg": "PayPal, Skrill",
+    "cards": "Visa,Mastercard",
+    "APMs": "Mobile Wallets (emerging)",
+    "Crypto": "Bitcoin,Ethereum",
+    "bankwire": "SWIFT,Local Bank Transfers"
+   },
+   {
+    "Country": "Cambodia",
+    "dpg": "Pi Pay, Wing",
+    "ipg": "PayPal, Skrill",
+    "cards": "Visa,Mastercard,JCB",
+    "APMs": "Wing, TrueMoney, Bakong",
+    "Crypto": "Bitcoin,Ethereum",
+    "bankwire": "SWIFT,Local Bank Transfers"
+   },
+   {
+    "Country": "Cameroon",
+    "dpg": "CCA Payment Gateway, UBA Cameroon Gateway",
+    "ipg": "PayPal, Skrill",
+    "cards": "Visa,Mastercard",
+    "APMs": "Mobile Money (MTN, Orange)",
+    "Crypto": "Bitcoin,Ethereum",
+    "bankwire": "SWIFT,Local Bank Transfers"
+   },
+   {
+    "Country": "Canada",
+    "dpg": "Moneris, Bambora",
+    "ipg": "PayPal, Stripe",
+    "cards": "Visa,Mastercard,American Express",
+    "APMs": "Interac,Apple Pay,Google Pay",
+    "Crypto": "Bitcoin,Ethereum",
+    "bankwire": "SWIFT,EFT, Interac e-Transfer"
+   },
+   {
+    "Country": "Central African Republic",
+    "dpg": "Ecobank Payment Gateway, UBA Payment Gateway",
+    "ipg": "PayPal, Skrill",
+    "cards": "Visa,Mastercard",
+    "APMs": "Mobile Money (MTN, Orange)",
+    "Crypto": "Bitcoin,Ethereum",
+    "bankwire": "SWIFT,Local Bank Transfers"
+   },
+   {
+    "Country": "Chad",
+    "dpg": "Ecobank Payment Gateway, UBA Payment Gateway",
+    "ipg": "PayPal, Skrill",
+    "cards": "Visa,Mastercard",
+    "APMs": "Mobile Money (Airtel, Moov)",
+    "Crypto": "Bitcoin,Ethereum",
+    "bankwire": "SWIFT,Local Bank Transfers"
+   },
+   {
+    "Country": "Chile",
+    "dpg": "WebPay, Transbank",
+    "ipg": "PayPal, Skrill",
+    "cards": "Visa,Mastercard,American Express",
+    "APMs": "Redcompra, MACH, Onepay",
+    "Crypto": "Bitcoin,Ethereum",
+    "bankwire": "SWIFT,Local Bank Transfers"
+   },
+   {
+    "Country": "China",
+    "dpg": "Alipay, WeChat Pay",
+    "ipg": "PayPal, Stripe",
+    "cards": "Visa,Mastercard,UnionPay",
+    "APMs": "Alipay, WeChat Pay, JD Pay",
+    "Crypto": "Bitcoin,Ethereum",
+    "bankwire": "SWIFT, CNAPS"
+   },
+   {
+    "Country": "Colombia",
+    "dpg": "PayU, MercadoPago",
+    "ipg": "PayPal, Skrill",
+    "cards": "Visa,Mastercard,American Express",
+    "APMs": "Baloto, PSE, Nequi",
+    "Crypto": "Bitcoin,Ethereum",
+    "bankwire": "SWIFT,Local Bank Transfers"
+   },
+   {
+    "Country": "Comoros",
+    "dpg": "Mvola, Wari",
+    "ipg": "PayPal, Skrill",
+    "cards": "Visa,Mastercard",
+    "APMs": "Mobile Money (emerging)",
+    "Crypto": "Bitcoin,Ethereum",
+    "bankwire": "SWIFT,Local Bank Transfers"
+   },
+   {
+    "Country": "Congo, Democratic Republic of theCongo, Democratic Republic of the",
+    "dpg": "Africell Money, Vodacom MPESA",
+    "ipg": "PayPal, Skrill",
+    "cards": "Visa,Mastercard",
+    "APMs": "Mobile Money (Airtel, Orange)",
+    "Crypto": "Bitcoin,Ethereum",
+    "bankwire": "SWIFT,Local Bank Transfers"
+   },
+   {
+    "Country": "Republic of the Congo",
+    "dpg": "MTN Mobile Money, Airtel Money",
+    "ipg": "PayPal, Skrill",
+    "cards": "Visa,Mastercard",
+    "APMs": "Mobile Money (MTN, Airtel)",
+    "Crypto": "Bitcoin,Ethereum",
+    "bankwire": "SWIFT,Local Bank Transfers"
+   },
+   {
+    "Country": "Costa Rica",
+    "dpg": "BN CR Payment Gateway, BAC Credomatic",
+    "ipg": "PayPal, Skrill",
+    "cards": "Visa,Mastercard,American Express",
+    "APMs": "SINPE,Mobile Payments (emerging)",
+    "Crypto": "Bitcoin,Ethereum",
+    "bankwire": "SWIFT,Local Bank Transfers"
+   },
+   {
+    "Country": "Croatia",
+    "dpg": "PayWay, CorvusPay",
+    "ipg": "PayPal, Skrill",
+    "cards": "Visa,Mastercard,American Express",
+    "APMs": "Aircash, KEKS Pay",
+    "Crypto": "Bitcoin,Ethereum",
+    "bankwire": "SWIFT,SEPA"
+   },
+   {
+    "Country": "Cuba",
+    "dpg": "EnZona, Transfermóvil",
+    "ipg": "PayPal, Skrill",
+    "cards": "Visa,Mastercard",
+    "APMs": "EnZona, Transfermóvil",
+    "Crypto": "Bitcoin,Ethereum",
+    "bankwire": "SWIFT,Local Bank Transfers"
+   },
+   {
+    "Country": "Cyprus",
+    "dpg": "JCC Payment Systems, GoCardless Cyprus",
+    "ipg": "PayPal, Skrill",
+    "cards": "Visa,Mastercard,American Express",
+    "APMs": "JCC,Mobile Payments (emerging)",
+    "Crypto": "Bitcoin,Ethereum",
+    "bankwire": "SWIFT,SEPA"
+   },
+   {
+    "Country": "Czech Republic",
+    "dpg": "GoPay, GP WebPay",
+    "ipg": "PayPal, Skrill",
+    "cards": "Visa,Mastercard,Maestro",
+    "APMs": "PayU, Twisto,Apple Pay",
+    "Crypto": "Bitcoin,Ethereum",
+    "bankwire": "SWIFT,SEPA"
+   },
+   {
+    "Country": "Denmark",
+    "dpg": "QuickPay, ePay",
+    "ipg": "PayPal, Stripe",
+    "cards": "Visa,Mastercard, Dankort",
+    "APMs": "MobilePay,Apple Pay",
+    "Crypto": "Bitcoin,Ethereum",
+    "bankwire": "SWIFT,SEPA"
+   },
+   {
+    "Country": "Djibouti",
+    "dpg": "Djibouti Telecom Payment Gateway, Salaam African Bank Gateway",
+    "ipg": "PayPal, Skrill",
+    "cards": "Visa,Mastercard",
+    "APMs": "Mobile Money (emerging)",
+    "Crypto": "Bitcoin,Ethereum",
+    "bankwire": "SWIFT,Local Bank Transfers"
+   },
+   {
+    "Country": "Dominica",
+    "dpg": "ECAB Payment Gateway, ACB Caribbean Payment Gateway",
+    "ipg": "PayPal, Skrill",
+    "cards": "Visa,Mastercard",
+    "APMs": "Mobile Payments (emerging)",
+    "Crypto": "Bitcoin,Ethereum",
+    "bankwire": "SWIFT,Local Bank Transfers"
+   },
+   {
+    "Country": "Dominican Republic",
+    "dpg": "CardNET, Azul",
+    "ipg": "PayPal, Skrill",
+    "cards": "Visa,Mastercard,American Express",
+    "APMs": "tPago, GCS, MiCarrito",
+    "Crypto": "Bitcoin,Ethereum",
+    "bankwire": "SWIFT,Local Bank Transfers"
+   },
+   {
+    "Country": "East Timor (Timor-Leste)",
+    "dpg": "Timor Telecom Payment Gateway, BNCTL Payment Gateway",
+    "ipg": "PayPal, Skrill",
+    "cards": "Visa,Mastercard",
+    "APMs": "Mobile Wallets (emerging)",
+    "Crypto": "Bitcoin,Ethereum",
+    "bankwire": "SWIFT,Local Bank Transfers"
+   },
+   {
+    "Country": "Ecuador",
+    "dpg": "Kushki, Place to Pay",
+    "ipg": "PayPal, Skrill",
+    "cards": "Visa,Mastercard,American Express",
+    "APMs": "Dineromail, Tarjeta de Crédito",
+    "Crypto": "Bitcoin,Ethereum",
+    "bankwire": "SWIFT,Local Bank Transfers"
+   },
+   {
+    "Country": "Egypt",
+    "dpg": "Fawry, PayMob",
+    "ipg": "PayPal, Skrill",
+    "cards": "Visa,Mastercard, Meeza",
+    "APMs": "Fawry, Vodafone Cash, Orange Money",
+    "Crypto": "Bitcoin,Ethereum",
+    "bankwire": "SWIFT,Local Bank Transfers"
+   },
+   {
+    "Country": "El Salvador",
+    "dpg": "Pagadito, SmartTransact",
+    "ipg": "PayPal, Skrill",
+    "cards": "Visa,Mastercard,American Express",
+    "APMs": "Tigo Money, Puntoxpress",
+    "Crypto": "Bitcoin,Ethereum",
+    "bankwire": "SWIFT,Local Bank Transfers"
+   },
+   {
+    "Country": "Equatorial Guinea",
+    "dpg": "Ecobank Payment Gateway, BGFI Bank Gateway",
+    "ipg": "PayPal, Skrill",
+    "cards": "Visa,Mastercard",
+    "APMs": "Mobile Money (emerging)",
+    "Crypto": "Bitcoin,Ethereum",
+    "bankwire": "SWIFT,Local Bank Transfers"
+   },
+   {
+    "Country": "Eritrea",
+    "dpg": "Commercial Bank of Eritrea Gateway, Housing and Commerce Bank Gateway",
+    "ipg": "PayPal, Skrill",
+    "cards": "Visa,Mastercard",
+    "APMs": "Mobile Wallets (emerging)",
+    "Crypto": "Bitcoin,Ethereum",
+    "bankwire": "SWIFT,Local Bank Transfers"
+   },
+   {
+    "Country": "Estonia",
+    "dpg": "Maksekeskus, EveryPay",
+    "ipg": "PayPal, Stripe",
+    "cards": "Visa,Mastercard,Maestro",
+    "APMs": "SEB, Swedbank, LHV,Apple Pay",
+    "Crypto": "Bitcoin,Ethereum",
+    "bankwire": "SWIFT,SEPA"
+   },
+   {
+    "Country": "Eswatini",
+    "dpg": "MTN Mobile Money, EswatiniBank Gateway",
+    "ipg": "PayPal, Skrill",
+    "cards": "Visa,Mastercard",
+    "APMs": "Mobile Money (MTN, EswatiniBank)",
+    "Crypto": "Bitcoin,Ethereum",
+    "bankwire": "SWIFT,Local Bank Transfers"
+   },
+   {
+    "Country": "Ethiopia",
+    "dpg": "HelloCash, CBE Birr",
+    "ipg": "PayPal, Skrill",
+    "cards": "Visa,Mastercard",
+    "APMs": "Mobile Money (HelloCash, CBE Birr)",
+    "Crypto": "Bitcoin,Ethereum",
+    "bankwire": "SWIFT,Local Bank Transfers"
+   },
+   {
+    "Country": "Fiji",
+    "dpg": "Vodafone M-PAiSA, BSP Payment Gateway",
+    "ipg": "PayPal, Skrill",
+    "cards": "Visa,Mastercard",
+    "APMs": "M-PAiSA,MyCash",
+    "Crypto": "Bitcoin,Ethereum",
+    "bankwire": "SWIFT,Local Bank Transfers"
+   },
+   {
+    "Country": "Finland",
+    "dpg": "Paytrail, Bambora",
+    "ipg": "PayPal, Stripe",
+    "cards": "Visa,Mastercard,American Express",
+    "APMs": "MobilePay, Pivo, Siirto,Apple Pay",
+    "Crypto": "Bitcoin,Ethereum",
+    "bankwire": "SWIFT,SEPA"
+   },
+   {
+    "Country": "France",
+    "dpg": "PayPlug, Lyra Network",
+    "ipg": "PayPal, Stripe",
+    "cards": "Visa,Mastercard, Carte Bancaire",
+    "APMs": "PayLib, Lydia,Apple Pay",
+    "Crypto": "Bitcoin,Ethereum",
+    "bankwire": "SWIFT,SEPA"
+   },
+   {
+    "Country": "Gabon",
+    "dpg": "BGFIBank Gateway, Ecobank Gateway",
+    "ipg": "PayPal, Skrill",
+    "cards": "Visa,Mastercard",
+    "APMs": "Mobile Money (Moov Money,Airtel Money)",
+    "Crypto": "Bitcoin,Ethereum",
+    "bankwire": "SWIFT,Local Bank Transfers"
+   },
+   {
+    "Country": "Gambia",
+    "dpg": "QMoney, Africell Money",
+    "ipg": "PayPal, Skrill",
+    "cards": "Visa,Mastercard",
+    "APMs": "Mobile Money (QMoney, Africell Money)",
+    "Crypto": "Bitcoin,Ethereum",
+    "bankwire": "SWIFT,Local Bank Transfers"
+   },
+   {
+    "Country": "Georgia",
+    "dpg": "TBC Pay, Bank of Georgia Gateway",
+    "ipg": "PayPal, Skrill",
+    "cards": "Visa,Mastercard,American Express",
+    "APMs": "TBC Wallet, ExpressPay",
+    "Crypto": "Bitcoin,Ethereum",
+    "bankwire": "SWIFT,Local Bank Transfers"
+   },
+   {
+    "Country": "Germany",
+    "dpg": "Wirecard, Heidelpay",
+    "ipg": "PayPal, Stripe",
+    "cards": "Visa,Mastercard,Maestro",
+    "APMs": "Giropay, Sofort, Klarna,Apple Pay",
+    "Crypto": "Bitcoin,Ethereum",
+    "bankwire": "SWIFT,SEPA"
+   },
+   {
+    "Country": "Ghana",
+    "dpg": "Hubtel, expressPay",
+    "ipg": "PayPal, Skrill",
+    "cards": "Visa,Mastercard",
+    "APMs": "Mobile Money (MTN, Vodafone Cash, AirtelTigo Money)",
+    "Crypto": "Bitcoin,Ethereum",
+    "bankwire": "SWIFT,Local Bank Transfers"
+   },
+   {
+    "Country": "Greece",
+    "dpg": "Viva Wallet, EveryPay",
+    "ipg": "PayPal, Skrill",
+    "cards": "Visa,Mastercard,Maestro",
+    "APMs": "Viva Wallet, Masterpass,Apple Pay",
+    "Crypto": "Bitcoin,Ethereum",
+    "bankwire": "SWIFT,SEPA"
+   },
+   {
+    "Country": "Grenada",
+    "dpg": "GBTI Bank Gateway, Republic Bank Gateway",
+    "ipg": "PayPal, Skrill",
+    "cards": "Visa,Mastercard",
+    "APMs": "Mobile Payments (emerging)",
+    "Crypto": "Bitcoin,Ethereum",
+    "bankwire": "SWIFT,Local Bank Transfers"
+   },
+   {
+    "Country": "Guatemala",
+    "dpg": "BAC Credomatic, VisaNet Guatemala",
+    "ipg": "PayPal, Skrill",
+    "cards": "Visa,Mastercard,American Express",
+    "APMs": "Tigo Money, Banco Industrial Mobile Payment",
+    "Crypto": "Bitcoin,Ethereum",
+    "bankwire": "SWIFT,Local Bank Transfers"
+   },
+   {
+    "Country": "Guinea",
+    "dpg": "Banque Populaire Maroco-Guinéenne Gateway, Ecobank Gateway",
+    "ipg": "PayPal, Skrill",
+    "cards": "Visa,Mastercard",
+    "APMs": "Mobile Money (MTN, Orange Money)",
+    "Crypto": "Bitcoin,Ethereum",
+    "bankwire": "SWIFT,Local Bank Transfers"
+   },
+   {
+    "Country": "Guinea-Bissau",
+    "dpg": "BDU Gateway, Ecobank Gateway",
+    "ipg": "PayPal, Skrill",
+    "cards": "Visa,Mastercard",
+    "APMs": "Mobile Money (MTN, Orange Money)",
+    "Crypto": "Bitcoin,Ethereum",
+    "bankwire": "SWIFT,Local Bank Transfers"
+   },
+   {
+    "Country": "Guyana",
+    "dpg": "Republic Bank Guyana Gateway, GBTI Bank Gateway",
+    "ipg": "PayPal, Skrill",
+    "cards": "Visa,Mastercard",
+    "APMs": "Mobile Payments (emerging)",
+    "Crypto": "Bitcoin,Ethereum",
+    "bankwire": "SWIFT,Local Bank Transfers"
+   },
+   {
+    "Country": "Haiti",
+    "dpg": "Sogebank Gateway, Unibank Gateway",
+    "ipg": "PayPal, Skrill",
+    "cards": "Visa,Mastercard",
+    "APMs": "MonCash, LajanCash",
+    "Crypto": "Bitcoin,Ethereum",
+    "bankwire": "SWIFT,Local Bank Transfers"
+   },
+   {
+    "Country": "Honduras",
+    "dpg": "Banco Atlántida Gateway, Ficohsa Gateway",
+    "ipg": "PayPal, Skrill",
+    "cards": "Visa,Mastercard,American Express",
+    "APMs": "Tigo Money, BAC Credomatic Mobile Payment",
+    "Crypto": "Bitcoin,Ethereum",
+    "bankwire": "SWIFT,Local Bank Transfers"
+   },
+   {
+    "Country": "Hungary",
+    "dpg": "OTP Simple, Barion",
+    "ipg": "PayPal, Skrill",
+    "cards": "Visa,Mastercard,Maestro",
+    "APMs": "Barion, SimplePay,Apple Pay",
+    "Crypto": "Bitcoin,Ethereum",
+    "bankwire": "SWIFT,SEPA"
+   },
+   {
+    "Country": "Iceland",
+    "dpg": "Valitor, Korta",
+    "ipg": "PayPal, Stripe",
+    "cards": "Visa,Mastercard,Maestro",
+    "APMs": "Aur, Kass,Apple Pay",
+    "Crypto": "Bitcoin,Ethereum",
+    "bankwire": "SWIFT,SEPA"
+   },
+   {
+    "Country": "India",
+    "dpg": "Razorpay, Paytm",
+    "ipg": "PayPal, Stripe",
+    "cards": "Visa,Mastercard, RuPay",
+    "APMs": "UPI,Paytm,PhonePe,Google Pay",
+    "Crypto": "Bitcoin,Ethereum",
+    "bankwire": "SWIFT, NEFT,RIGS"
+   },
+   {
+    "Country": "Indonesia",
+    "dpg": "Midtrans, DOKU",
+    "ipg": "PayPal, Stripe",
+    "cards": "Visa,Mastercard,JCB",
+    "APMs": "GoPay,OVO,Dana,LinkAja",
+    "Crypto": "Bitcoin,Ethereum",
+    "bankwire": "SWIFT,BI-RTGS,SKNBI"
+   },
+   {
+    "Country": "Iran",
+    "dpg": "Zarinpal, Pay.ir",
+    "ipg": "Perfect Money, WebMoney",
+    "cards": "Visa,Mastercard (limited)",
+    "APMs": "Zarinpal Wallet,Saman Bank Wallet",
+    "Crypto": "Bitcoin,Ethereum",
+    "bankwire": "SWIFT,SEPAM"
+   },
+   {
+    "Country": "Iraq",
+    "dpg": "NassWallet, AsiaHawala",
+    "ipg": "PayPal, Skrill",
+    "cards": "Visa,Mastercard",
+    "APMs": "ZainCash,AsiaHawala",
+    "Crypto": "Bitcoin,Ethereum",
+    "bankwire": "SWIFT,Local Bank Transfers"
+   },
+   {
+    "Country": "Ireland",
+    "dpg": "Realex, Stripe (IE)",
+    "ipg": "PayPal, Stripe",
+    "cards": "Visa,Mastercard,American Express",
+    "APMs": "Payzone,Apple Pay",
+    "Crypto": "Bitcoin,Ethereum",
+    "bankwire": "SWIFT,SEPA"
+   },
+   {
+    "Country": "Israel",
+    "dpg": "Pelecard, Tranzila",
+    "ipg": "PayPal, Stripe",
+    "cards": "Visa,Mastercard,Isracard",
+    "APMs": "Bit,Apple Pay",
+    "Crypto": "Bitcoin,Ethereum",
+    "bankwire": "SWIFT,Local Bank Transfers"
+   },
+   {
+    "Country": "Italy",
+    "dpg": "Nexi, Gestpay",
+    "ipg": "PayPal, Stripe",
+    "cards": "Visa,Mastercard,American Express",
+    "APMs": "Satispay,MyBank,Apple Pay",
+    "Crypto": "Bitcoin,Ethereum",
+    "bankwire": "SWIFT,SEPA"
+   },
+   {
+    "Country": "Ivory Coast",
+    "dpg": "CIE Payment Gateway, SIB Gateway",
+    "ipg": "PayPal, Skrill",
+    "cards": "Visa,Mastercard",
+    "APMs": "Mobile Money (MTN, Orange Money, Moov Money)",
+    "Crypto": "Bitcoin,Ethereum",
+    "bankwire": "SWIFT,Local Bank Transfers"
+   },
+   {
+    "Country": "Jamaica",
+    "dpg": "NCB eCommerce, JN Bank Payment Gateway",
+    "ipg": "PayPal, Skrill",
+    "cards": "Visa,Mastercard",
+    "APMs": "Quisk,MyCash",
+    "Crypto": "Bitcoin,Ethereum",
+    "bankwire": "SWIFT,Local Bank Transfers"
+   },
+   {
+    "Country": "Japan",
+    "dpg": "GMO Payment Gateway, SoftBank Payment",
+    "ipg": "PayPal, Stripe",
+    "cards": "Visa,Mastercard,JCB",
+    "APMs": "Konbini,PayPay,LINE Pay",
+    "Crypto": "Bitcoin,Ethereum",
+    "bankwire": "SWIFT,Zengin System"
+   },
+   {
+    "Country": "Jordan",
+    "dpg": "MadfooatCom, Gate2Play",
+    "ipg": "PayPal, Skrill",
+    "cards": "Visa,Mastercard",
+    "APMs": "JoMoPay,Dinarak",
+    "Crypto": "Bitcoin,Ethereum",
+    "bankwire": "SWIFT,Local Bank Transfers"
+   },
+   {
+    "Country": "Kazakhstan",
+    "dpg": "Kaspi Pay, ForteBank Payment Gateway",
+    "ipg": "PayPal, Skrill",
+    "cards": "Visa,Mastercard,Maestro",
+    "APMs": "Kaspi.kz,Homebank.kz",
+    "Crypto": "Bitcoin,Ethereum",
+    "bankwire": "SWIFT,Local Bank Transfers"
+   },
+   {
+    "Country": "Kenya",
+    "dpg": "M-Pesa, Pesapal",
+    "ipg": "PayPal, Skrill",
+    "cards": "Visa,Mastercard",
+    "APMs": "M-Pesa,Airtel Money,T-Kash",
+    "Crypto": "Bitcoin,Ethereum",
+    "bankwire": "SWIFT,RIGS,EFT"
+   },
+   {
+    "Country": "Kiribati",
+    "dpg": "ANZ Kiribati, Bank of Kiribati Payment Gateway",
+    "ipg": "PayPal, Skrill",
+    "cards": "Visa,Mastercard",
+    "APMs": "Mobile Wallets (emerging)",
+    "Crypto": "Bitcoin,Ethereum",
+    "bankwire": "SWIFT,Local Bank Transfers"
+   },
+   {
+    "Country": "North Korea",
+    "dpg": "Naenara Card, Koryo Bank Payment",
+    "ipg": "None (international restrictions)",
+    "cards": "Koryo Card",
+    "APMs": "Naenara Card",
+    "Crypto": "Bitcoin (limited),Ethereum (limited)",
+    "bankwire": "Local Bank Transfers"
+   },
+   {
+    "Country": "South Korea",
+    "dpg": "KakaoPay, Toss",
+    "ipg": "PayPal, Stripe",
+    "cards": "Visa,Mastercard,JCB",
+    "APMs": "Naver Pay,Samsung Pay,KakaoPay",
+    "Crypto": "Bitcoin,Ethereum",
+    "bankwire": "SWIFT,HOFINET"
+   },
+   {
+    "Country": "Kosovo",
+    "dpg": "Banka Ekonomike Gateway, Raiffeisen Bank Gateway",
+    "ipg": "PayPal, Skrill",
+    "cards": "Visa,Mastercard",
+    "APMs": "Mobile Wallets (emerging)",
+    "Crypto": "Bitcoin,Ethereum",
+    "bankwire": "SWIFT,SEPA"
+   },
+   {
+    "Country": "Kuwait",
+    "dpg": "KNET, MyFatoorah",
+    "ipg": "PayPal, Skrill",
+    "cards": "Visa,Mastercard,American Express",
+    "APMs": "KNET,TAP Payments",
+    "Crypto": "Bitcoin,Ethereum",
+    "bankwire": "SWIFT,K-Net"
+   },
+   {
+    "Country": "Kyrgyzstan",
+    "dpg": "ELSOM, Umai",
+    "ipg": "PayPal, Skrill",
+    "cards": "Visa,Mastercard",
+    "APMs": "ELSOM,MegaPay",
+    "Crypto": "Bitcoin,Ethereum",
+    "bankwire": "SWIFT,Local Bank Transfers"
+   },
+   {
+    "Country": "Laos",
+    "dpg": "BCEL One, JDB Pay",
+    "ipg": "PayPal, Skrill",
+    "cards": "Visa,Mastercard",
+    "APMs": "BCEL One,Unitel Money",
+    "Crypto": "Bitcoin,Ethereum",
+    "bankwire": "SWIFT,Local Bank Transfers"
+   },
+   {
+    "Country": "Latvia",
+    "dpg": "Swedbank Gateway, Citadele Gateway",
+    "ipg": "PayPal, Stripe",
+    "cards": "Visa,Mastercard,Maestro",
+    "APMs": "Swedbank,SEB,Citadele,Apple Pay",
+    "Crypto": "Bitcoin,Ethereum",
+    "bankwire": "SWIFT,SEPA"
+   },
+   {
+    "Country": "Lebanon",
+    "dpg": "Bank Audi Payment Gateway, Fransabank Gateway",
+    "ipg": "PayPal, Skrill",
+    "cards": "Visa,Mastercard,American Express",
+    "APMs": "OMT, CashUnited",
+    "Crypto": "Bitcoin,Ethereum",
+    "bankwire": "SWIFT,Local Bank Transfers"
+   },
+   {
+    "Country": "Lesotho",
+    "dpg": "Lesotho PostBank Gateway, Standard Lesotho Bank Gateway",
+    "ipg": "PayPal, Skrill",
+    "cards": "Visa,Mastercard",
+    "APMs": "Mobile Money (EcoCash, M-Pesa)",
+    "Crypto": "Bitcoin,Ethereum",
+    "bankwire": "SWIFT,Local Bank Transfers"
+   },
+   {
+    "Country": "Liberia",
+    "dpg": "Lonestar Cell MTN, UBA Liberia",
+    "ipg": "PayPal, Skrill",
+    "cards": "Visa,Mastercard",
+    "APMs": "Mobile Money (Lonestar Cell, Orange Money)",
+    "Crypto": "Bitcoin,Ethereum",
+    "bankwire": "SWIFT,Local Bank Transfers"
+   },
+   {
+    "Country": "Libya",
+    "dpg": "Aman Bank Gateway, Wahda Bank Gateway",
+    "ipg": "PayPal, Skrill",
+    "cards": "Visa,Mastercard",
+    "APMs": "Mobile Wallets (emerging)",
+    "Crypto": "Bitcoin,Ethereum",
+    "bankwire": "SWIFT,Local Bank Transfers"
+   },
+   {
+    "Country": "Liechtenstein",
+    "dpg": "DataTrans, Payrexx",
+    "ipg": "PayPal, Stripe",
+    "cards": "Visa,Mastercard,Maestro",
+    "APMs": "Apple Pay,Google Pay, TWINT",
+    "Crypto": "Bitcoin,Ethereum",
+    "bankwire": "SWIFT,SEPA"
+   },
+   {
+    "Country": "Lithuania",
+    "dpg": "Paysera, Click2Sell",
+    "ipg": "PayPal, Stripe",
+    "cards": "Visa,Mastercard,Maestro",
+    "APMs": "Swedbank,SEB, Luminor,Apple Pay",
+    "Crypto": "Bitcoin,Ethereum",
+    "bankwire": "SWIFT,SEPA"
+   },
+   {
+    "Country": "Luxembourg",
+    "dpg": "Six Payment Services, Worldline",
+    "ipg": "PayPal, Stripe",
+    "cards": "Visa,Mastercard,Maestro",
+    "APMs": "Digicash,Apple Pay",
+    "Crypto": "Bitcoin,Ethereum",
+    "bankwire": "SWIFT,SEPA"
+   },
+   {
+    "Country": "Madagascar",
+    "dpg": "Telma Money, MVola",
+    "ipg": "PayPal, Skrill",
+    "cards": "Visa,Mastercard",
+    "APMs": "Mobile Money (Telma Money, MVola)",
+    "Crypto": "Bitcoin,Ethereum",
+    "bankwire": "SWIFT,Local Bank Transfers"
+   },
+   {
+    "Country": "Malawi",
+    "dpg": "TNM Mpamba, Airtel Money",
+    "ipg": "PayPal, Skrill",
+    "cards": "Visa,Mastercard",
+    "APMs": "Mobile Money (Mpamba, Airtel)",
+    "Crypto": "Bitcoin,Ethereum",
+    "bankwire": "SWIFT,Local Bank Transfers"
+   },
+   {
+    "Country": "Malaysia",
+    "dpg": "iPay88, eGHL",
+    "ipg": "PayPal, Stripe",
+    "cards": "Visa,Mastercard,American Express",
+    "APMs": "GrabPay,Touch 'n Go, Boost",
+    "Crypto": "Bitcoin,Ethereum",
+    "bankwire": "SWIFT,FPX"
+   },
+   {
+    "Country": "Maldives",
+    "dpg": "Bank of Maldives Payment Gateway, Ooredoo Maldives Gateway",
+    "ipg": "PayPal, Skrill",
+    "cards": "Visa,Mastercard,American Express",
+    "APMs": "Ooredoo Pay,m-Faisaa",
+    "Crypto": "Bitcoin,Ethereum",
+    "bankwire": "SWIFT,Local Bank Transfers"
+   },
+   {
+    "Country": "Mali",
+    "dpg": "Orange Money Mali, Ecobank Mali",
+    "ipg": "PayPal, Skrill",
+    "cards": "Visa,Mastercard",
+    "APMs": "Mobile Money (Orange Money)",
+    "Crypto": "Bitcoin,Ethereum",
+    "bankwire": "SWIFT,Local Bank Transfers"
+   },
+   {
+    "Country": "Malta",
+    "dpg": "HSBC Malta Payment Gateway, BOV Payment Gateway",
+    "ipg": "PayPal, Stripe",
+    "cards": "Visa,Mastercard,American Express",
+    "APMs": "Revolut,BOV Mobile Pay",
+    "Crypto": "Bitcoin,Ethereum",
+    "bankwire": "SWIFT,SEPA"
+   },
+   {
+    "Country": "Marshall Islands",
+    "dpg": "Bank of Marshall Islands, BOMI Bank",
+    "ipg": "PayPal, Skrill",
+    "cards": "Visa,Mastercard",
+    "APMs": "Mobile Wallets (emerging)",
+    "Crypto": "Bitcoin,Ethereum",
+    "bankwire": "SWIFT,Local Bank Transfers"
+   },
+   {
+    "Country": "Mauritania",
+    "dpg": "Mauritel Mobile Money, Société Générale Mauritanie Gateway",
+    "ipg": "PayPal, Skrill",
+    "cards": "Visa,Mastercard",
+    "APMs": "Mobile Money (Mauritel Money)",
+    "Crypto": "Bitcoin,Ethereum",
+    "bankwire": "SWIFT,Local Bank Transfers"
+   },
+   {
+    "Country": "Mauritius",
+    "dpg": "MCB Payment Gateway, SBM Bank Gateway",
+    "ipg": "PayPal, Stripe",
+    "cards": "Visa,Mastercard,American Express",
+    "APMs": "Juice,MyT Money",
+    "Crypto": "Bitcoin,Ethereum",
+    "bankwire": "SWIFT,Local Bank Transfers"
+   },
+   {
+    "Country": "Mexico",
+    "dpg": "Conekta, Openpay",
+    "ipg": "PayPal, Stripe",
+    "cards": "Visa,Mastercard,American Express",
+    "APMs": "MercadoPago,Oxxo Pay,SPEI",
+    "Crypto": "Bitcoin,Ethereum",
+    "bankwire": "SWIFT,CLABE"
+   },
+   {
+    "Country": "Micronesia",
+    "dpg": "Bank of the FSM, Bank of Guam Gateway",
+    "ipg": "PayPal, Skrill",
+    "cards": "Visa,Mastercard",
+    "APMs": "Mobile Wallets (emerging)",
+    "Crypto": "Bitcoin,Ethereum",
+    "bankwire": "SWIFT,Local Bank Transfers"
+   },
+   {
+    "Country": "Moldova",
+    "dpg": "Moldindconbank Payment Gateway, Mobiasbanca Payment Gateway",
+    "ipg": "PayPal, Skrill",
+    "cards": "Visa,Mastercard,American Express",
+    "APMs": "Masterpass,Moldova Agroindbank",
+    "Crypto": "Bitcoin,Ethereum",
+    "bankwire": "SWIFT,SEPA"
+   },
+   {
+    "Country": "Monaco",
+    "dpg": "CMB Monaco, BNP Paribas Monaco",
+    "ipg": "PayPal, Skrill",
+    "cards": "Visa,Mastercard,American Express",
+    "APMs": "TWINT,Apple Pay",
+    "Crypto": "Bitcoin,Ethereum",
+    "bankwire": "SWIFT,SEPA"
+   },
+   {
+    "Country": "Mongolia",
+    "dpg": "Golomt Bank Payment Gateway, Khan Bank Payment Gateway",
+    "ipg": "PayPal, Skrill",
+    "cards": "Visa,Mastercard",
+    "APMs": "Mobile Money (emerging)",
+    "Crypto": "Bitcoin,Ethereum",
+    "bankwire": "SWIFT,Local Bank Transfers"
+   },
+   {
+    "Country": "Montenegro",
+    "dpg": "CKB Payment Gateway, NLB Montenegro Bank Gateway",
+    "ipg": "PayPal, Skrill",
+    "cards": "Visa,Mastercard",
+    "APMs": "DinaCard,Mobile Payments (emerging)",
+    "Crypto": "Bitcoin,Ethereum",
+    "bankwire": "SWIFT,SEPA"
+   },
+   {
+    "Country": "Morocco",
+    "dpg": "Bank Al-Maghrib Payment Gateway, Attijariwafa Bank Gateway",
+    "ipg": "PayPal, Skrill",
+    "cards": "Visa,Mastercard",
+    "APMs": "Mobile Money (Inwi Money, Orange Money)",
+    "Crypto": "Bitcoin,Ethereum",
+    "bankwire": "SWIFT,Local Bank Transfers"
+   },
+   {
+    "Country": "Mozambique",
+    "dpg": "Ipay, Moza Banco Payment Gateway",
+    "ipg": "PayPal, Skrill",
+    "cards": "Visa,Mastercard",
+    "APMs": "mCel,Vodacom M-Pesa",
+    "Crypto": "Bitcoin,Ethereum",
+    "bankwire": "SWIFT,Local Bank Transfers"
+   },
+   {
+    "Country": "Myanmar (Burma)",
+    "dpg": "CB Bank Payment Gateway, AYA Bank Payment Gateway",
+    "ipg": "PayPal, Skrill",
+    "cards": "Visa,Mastercard,UnionPay",
+    "APMs": "Wave Money,OK Dollar,KBZPay",
+    "Crypto": "Bitcoin,Ethereum",
+    "bankwire": "SWIFT,Local Bank Transfers"
+   },
+   {
+    "Country": "Namibia",
+    "dpg": "FNB Namibia Payment Gateway, Nedbank Namibia Gateway",
+    "ipg": "PayPal, Stripe",
+    "cards": "Visa,Mastercard",
+    "APMs": "Mobile Money (MTC, TN Mobile)",
+    "Crypto": "Bitcoin,Ethereum",
+    "bankwire": "SWIFT,Local Bank Transfers"
+   },
+   {
+    "Country": "Nauru",
+    "dpg": "Westpac Nauru, Bank of Nauru Gateway",
+    "ipg": "PayPal, Skrill",
+    "cards": "Visa,Mastercard",
+    "APMs": "Mobile Wallets (emerging)",
+    "Crypto": "Bitcoin,Ethereum",
+    "bankwire": "SWIFT,Local Bank Transfers"
+   },
+   {
+    "Country": "Nepal",
+    "dpg": "eSewa, Khalti",
+    "ipg": "PayPal, Skrill",
+    "cards": "Visa,Mastercard,UnionPay",
+    "APMs": "SCT MoCo,IME Pay,Prabhu Pay",
+    "Crypto": "Bitcoin,Ethereum",
+    "bankwire": "SWIFT,Local Bank Transfers"
+   },
+   {
+    "Country": "Netherlands",
+    "dpg": "iDEAL, Mollie",
+    "ipg": "PayPal, Stripe",
+    "cards": "Visa,Mastercard,Maestro",
+    "APMs": "Apple Pay,Tikkie,Bunq",
+    "Crypto": "Bitcoin,Ethereum",
+    "bankwire": "SWIFT,SEPA"
+   },
+   {
+    "Country": "New Zealand",
+    "dpg": "Payment Express, Windcave (formerly Payment Express)",
+    "ipg": "PayPal, Stripe",
+    "cards": "Visa,Mastercard,American Express",
+    "APMs": "POLi Payments,Afterpay,Apple Pay",
+    "Crypto": "Bitcoin,Ethereum",
+    "bankwire": "SWIFT,Local Bank Transfers"
+   },
+   {
+    "Country": "Nicaragua",
+    "dpg": "Banpro Payment Gateway, BAC Credomatic Nicaragua",
+    "ipg": "PayPal, Skrill",
+    "cards": "Visa,Mastercard,American Express",
+    "APMs": "MiBanco,Tigo Money,Claro Pay",
+    "Crypto": "Bitcoin,Ethereum",
+    "bankwire": "SWIFT,Local Bank Transfers"
+   },
+   {
+    "Country": "Niger",
+    "dpg": "Bank of Africa Niger, BIA Niger",
+    "ipg": "PayPal, Skrill",
+    "cards": "Visa,Mastercard",
+    "APMs": "Mobile Money (Flooz,Tigo Money)",
+    "Crypto": "Bitcoin,Ethereum",
+    "bankwire": "SWIFT,Local Bank Transfers"
+   },
+   {
+    "Country": "Nigeria",
+    "dpg": "Interswitch, Flutterwave",
+    "ipg": "PayPal, Stripe",
+    "cards": "Visa,Mastercard,Verve",
+    "APMs": "Paga,Remita,Quickteller",
+    "Crypto": "Bitcoin,Ethereum",
+    "bankwire": "SWIFT,Local Bank Transfers"
+   },
+   {
+    "Country": "North Macedonia",
+    "dpg": "Komercijalna Banka AD Skopje, NLB Banka Skopje",
+    "ipg": "PayPal, Skrill",
+    "cards": "Visa,Mastercard",
+    "APMs": "Mobile Wallets (emerging)",
+    "Crypto": "Bitcoin,Ethereum",
+    "bankwire": "SWIFT,SEPA"
+   },
+   {
+    "Country": "Norway",
+    "dpg": "DIBS Payment Services, Nets",
+    "ipg": "PayPal, Stripe",
+    "cards": "Visa,Mastercard,Maestro",
+    "APMs": "Vipps,MobilePay,Apple Pay",
+    "Crypto": "Bitcoin,Ethereum",
+    "bankwire": "SWIFT,SEPA"
+   },
+   {
+    "Country": "Oman",
+    "dpg": "Bank Muscat Payment Gateway, NBO Gateway",
+    "ipg": "PayPal, Skrill",
+    "cards": "Visa,Mastercard",
+    "APMs": "Mobile Wallets (OmanNet, eFloos)",
+    "Crypto": "Bitcoin,Ethereum",
+    "bankwire": "SWIFT,Local Bank Transfers"
+   },
+   {
+    "Country": "Pakistan",
+    "dpg": "JazzCash, EasyPaisa",
+    "ipg": "PayPal, Skrill",
+    "cards": "Visa,Mastercard,UnionPay",
+    "APMs": "JazzCash,EasyPaisa",
+    "Crypto": "Bitcoin,Ethereum",
+    "bankwire": "SWIFT,Local Bank Transfers"
+   },
+   {
+    "Country": "Palau",
+    "dpg": "Bank of Guam Palau, PNCC Palau",
+    "ipg": "PayPal, Skrill",
+    "cards": "Visa,Mastercard",
+    "APMs": "Mobile Wallets (emerging)",
+    "Crypto": "Bitcoin,Ethereum",
+    "bankwire": "SWIFT,Local Bank Transfers"
+   },
+   {
+    "Country": "Panama",
+    "dpg": "Sistema Clave, Global Bank Panama",
+    "ipg": "PayPal, Stripe",
+    "cards": "Visa,Mastercard",
+    "APMs": "Yappy,Telered,ACH",
+    "Crypto": "Bitcoin,Ethereum",
+    "bankwire": "SWIFT,Local Bank Transfers"
+   },
+   {
+    "Country": "Papua New Guinea",
+    "dpg": "BSP Online, Kina Bank Payment Gateway",
+    "ipg": "PayPal, Skrill",
+    "cards": "Visa,Mastercard",
+    "APMs": "Mobile Wallets (emerging)",
+    "Crypto": "Bitcoin,Ethereum",
+    "bankwire": "SWIFT,Local Bank Transfers"
+   },
+   {
+    "Country": "Paraguay",
+    "dpg": "Bancard, Tigo Money",
+    "ipg": "PayPal, Skrill",
+    "cards": "Visa,Mastercard,American Express",
+    "APMs": "Pagos Online,Redeshop",
+    "Crypto": "Bitcoin,Ethereum",
+    "bankwire": "SWIFT,Local Bank Transfers"
+   },
+   {
+    "Country": "Peru",
+    "dpg": "PagoEfectivo, Culqi",
+    "ipg": "PayPal, Stripe",
+    "cards": "Visa,Mastercard",
+    "APMs": "Yape, BIM, PagoLink",
+    "Crypto": "Bitcoin,Ethereum",
+    "bankwire": "SWIFT,Local Bank Transfers"
+   },
+   {
+    "Country": "Philippines",
+    "dpg": "GCash, PayMaya",
+    "ipg": "PayPal, Stripe",
+    "cards": "Visa,Mastercard",
+    "APMs": "GrabPay, Coins.ph, DragonPay",
+    "Crypto": "Bitcoin,Ethereum",
+    "bankwire": "SWIFT,Local Bank Transfers"
+   },
+   {
+    "Country": "Poland",
+    "dpg": "Przelewy24, Dotpay",
+    "ipg": "PayPal, Stripe",
+    "cards": "Visa,Mastercard,Maestro",
+    "APMs": "BLIK,Google Pay,Apple Pay",
+    "Crypto": "Bitcoin,Ethereum",
+    "bankwire": "SWIFT,SEPA"
+   },
+   {
+    "Country": "Portugal",
+    "dpg": "Multibanco, Easypay",
+    "ipg": "PayPal, Stripe",
+    "cards": "Visa,Mastercard,American Express",
+    "APMs": "MB WAY, PayPal,Apple Pay",
+    "Crypto": "Bitcoin,Ethereum",
+    "bankwire": "SWIFT,SEPA"
+   },
+   {
+    "Country": "Qatar",
+    "dpg": "QPay, Doha Bank Payment Gateway",
+    "ipg": "PayPal, Skrill",
+    "cards": "Visa,Mastercard",
+    "APMs": "Mobile Wallets (emerging)",
+    "Crypto": "Bitcoin,Ethereum",
+    "bankwire": "SWIFT,Local Bank Transfers"
+   },
+   {
+    "Country": "Romania",
+    "dpg": "MobilPay, EuPlatesc",
+    "ipg": "PayPal, Stripe",
+    "cards": "Visa,Mastercard,Maestro",
+    "APMs": "Twispay, Netopia Payments, Revolut",
+    "Crypto": "Bitcoin,Ethereum",
+    "bankwire": "SWIFT,SEPA"
+   },
+   {
+    "Country": "Russia",
+    "dpg": "YooMoney, Tinkoff Bank Payment Gateway",
+    "ipg": "PayPal, Stripe",
+    "cards": "Visa,Mastercard, Mir",
+    "APMs": "SberPay, Yandex Money, Qiwi Wallet",
+    "Crypto": "Bitcoin,Ethereum",
+    "bankwire": "SWIFT,Local Bank Transfers"
+   },
+   {
+    "Country": "Rwanda",
+    "dpg": "MTN Mobile Money, Tigo Cash",
+    "ipg": "PayPal, Skrill",
+    "cards": "Visa,Mastercard",
+    "APMs": "Mobile Money (MTN, Tigo)",
+    "Crypto": "Bitcoin,Ethereum",
+    "bankwire": "SWIFT,Local Bank Transfers"
+   },
+   {
+    "Country": "Saint Kitts and Nevis",
+    "dpg": "St. Kitts-Nevis-Anguilla National Bank",
+    "ipg": "PayPal, Skrill",
+    "cards": "Visa,Mastercard",
+    "APMs": "Mobile Wallets (emerging)",
+    "Crypto": "Bitcoin,Ethereum",
+    "bankwire": "SWIFT,Local Bank Transfers"
+   },
+   {
+    "Country": "Saint Lucia",
+    "dpg": "Bank of Saint Lucia, First National Bank Saint Lucia",
+    "ipg": "PayPal, Skrill",
+    "cards": "Visa,Mastercard",
+    "APMs": "Mobile Wallets (emerging)",
+    "Crypto": "Bitcoin,Ethereum",
+    "bankwire": "SWIFT,Local Bank Transfers"
+   },
+   {
+    "Country": "Saint Vincent and the Grenadines",
+    "dpg": "Bank of Saint Vincent and the Grenadines",
+    "ipg": "PayPal, Skrill",
+    "cards": "Visa,Mastercard",
+    "APMs": "Mobile Wallets (emerging)",
+    "Crypto": "Bitcoin,Ethereum",
+    "bankwire": "SWIFT,Local Bank Transfers"
+   },
+   {
+    "Country": "Samoa",
+    "dpg": "ANZ Samoa, Samoa Commercial Bank",
+    "ipg": "PayPal, Skrill",
+    "cards": "Visa,Mastercard",
+    "APMs": "Mobile Wallets (emerging)",
+    "Crypto": "Bitcoin,Ethereum",
+    "bankwire": "SWIFT,Local Bank Transfers"
+   },
+   {
+    "Country": "San Marino",
+    "dpg": "Cassa di Risparmio di San Marino, Banca Sammarinese di Investimento",
+    "ipg": "PayPal, Skrill",
+    "cards": "Visa,Mastercard",
+    "APMs": "Mobile Wallets (emerging)",
+    "Crypto": "Bitcoin,Ethereum",
+    "bankwire": "SWIFT,SEPA"
+   },
+   {
+    "Country": "Sao Tome and Principe",
+    "dpg": "STP Gateway, Ecobank Sao Tome",
+    "ipg": "PayPal, Skrill",
+    "cards": "Visa,Mastercard",
+    "APMs": "Mobile Wallets (emerging)",
+    "Crypto": "Bitcoin,Ethereum",
+    "bankwire": "SWIFT,Local Bank Transfers"
+   },
+   {
+    "Country": "Saudi Arabia",
+    "dpg": "SADAD, STCPay",
+    "ipg": "PayPal, Stripe",
+    "cards": "Visa,Mastercard,American Express",
+    "APMs": "Apple Pay, Mada Pay",
+    "Crypto": "Bitcoin,Ethereum",
+    "bankwire": "SWIFT,Local Bank Transfers"
+   },
+   {
+    "Country": "Senegal",
+    "dpg": "Orange Money Senegal, CBAO Payment Gateway",
+    "ipg": "PayPal, Skrill",
+    "cards": "Visa,Mastercard",
+    "APMs": "Mobile Money (Orange Money)",
+    "Crypto": "Bitcoin,Ethereum",
+    "bankwire": "SWIFT,Local Bank Transfers"
+   },
+   {
+    "Country": "Serbia",
+    "dpg": "Banca Intesa Beograd, UniCredit Bank Serbia",
+    "ipg": "PayPal, Skrill",
+    "cards": "Visa,Mastercard,American Express",
+    "APMs": "DinaCard,Mastercard Direct Payment",
+    "Crypto": "Bitcoin,Ethereum",
+    "bankwire": "SWIFT,SEPA"
+   },
+   {
+    "Country": "Seychelles",
+    "dpg": "Barclays Seychelles, Nouvobanq Payment Gateway",
+    "ipg": "PayPal, Skrill",
+    "cards": "Visa,Mastercard",
+    "APMs": "Mobile Wallets (Seychelles Pay)",
+    "Crypto": "Bitcoin,Ethereum",
+    "bankwire": "SWIFT,Local Bank Transfers"
+   },
+   {
+    "Country": "Sierra Leone",
+    "dpg": "Rokel Commercial Bank, EcoBank Sierra Leone",
+    "ipg": "PayPal, Skrill",
+    "cards": "Visa,Mastercard",
+    "APMs": "Mobile Wallets (emerging)",
+    "Crypto": "Bitcoin,Ethereum",
+    "bankwire": "SWIFT,Local Bank Transfers"
+   },
+   {
+    "Country": "Singapore",
+    "dpg": "DBS PayLah!, GrabPay",
+    "ipg": "PayPal, Stripe",
+    "cards": "Visa,Mastercard,American Express",
+    "APMs": "NETS, PayNow,Apple Pay",
+    "Crypto": "Bitcoin,Ethereum",
+    "bankwire": "SWIFT,Local Bank Transfers"
+   },
+   {
+    "Country": "Slovakia",
+    "dpg": "TatraPay, Slovenská sporiteľňa",
+    "ipg": "PayPal, Stripe",
+    "cards": "Visa,Mastercard,Maestro",
+    "APMs": "Google Pay,Apple Pay, TWINT",
+    "Crypto": "Bitcoin,Ethereum",
+    "bankwire": "SWIFT,SEPA"
+   },
+   {
+    "Country": "Slovenia",
+    "dpg": "NLB Klik, Abanka Payment Gateway",
+    "ipg": "PayPal, Stripe",
+    "cards": "Visa,Mastercard,Maestro",
+    "APMs": "Moneta,Mastercard Direct Payment",
+    "Crypto": "Bitcoin,Ethereum",
+    "bankwire": "SWIFT,SEPA"
+   },
+   {
+    "Country": "Solomon Islands",
+    "dpg": "BSP Solomon Islands, ANZ Solomon Islands",
+    "ipg": "PayPal, Skrill",
+    "cards": "Visa,Mastercard",
+    "APMs": "Mobile Wallets (emerging)",
+    "Crypto": "Bitcoin,Ethereum",
+    "bankwire": "SWIFT,Local Bank Transfers"
+   },
+   {
+    "Country": "Somalia",
+    "dpg": "Dahabshiil, Salaam Somali Bank",
+    "ipg": "PayPal, Skrill",
+    "cards": "Visa,Mastercard",
+    "APMs": "Mobile Wallets (emerging)",
+    "Crypto": "Bitcoin,Ethereum",
+    "bankwire": "SWIFT,Local Bank Transfers"
+   },
+   {
+    "Country": "South Africa",
+    "dpg": "PayFast, SnapScan",
+    "ipg": "PayPal, Stripe",
+    "cards": "Visa,Mastercard,American Express",
+    "APMs": "Zapper,Samsung Pay, FNB Pay",
+    "Crypto": "Bitcoin,Ethereum",
+    "bankwire": "SWIFT,Local Bank Transfers"
+   },
+   {
+    "Country": "South Sudan",
+    "dpg": "Bank of South Sudan, Equity Bank South Sudan",
+    "ipg": "PayPal, Skrill",
+    "cards": "Visa,Mastercard",
+    "APMs": "Mobile Wallets (emerging)",
+    "Crypto": "Bitcoin,Ethereum",
+    "bankwire": "SWIFT,Local Bank Transfers"
+   },
+   {
+    "Country": "Spain",
+    "dpg": "Redsys, BBVA Payment Gateway",
+    "ipg": "PayPal, Stripe",
+    "cards": "Visa,Mastercard,American Express",
+    "APMs": "Bizum,Apple Pay,Google Pay",
+    "Crypto": "Bitcoin,Ethereum",
+    "bankwire": "SWIFT,SEPA"
+   },
+   {
+    "Country": "Sri Lanka",
+    "dpg": "Sampath Vishwa, Commercial Bank Payment Gateway",
+    "ipg": "PayPal, Skrill",
+    "cards": "Visa,Mastercard,American Express",
+    "APMs": "eZ Cash, FriMi, Genie",
+    "Crypto": "Bitcoin,Ethereum",
+    "bankwire": "SWIFT,Local Bank Transfers"
+   },
+   {
+    "Country": "Sudan",
+    "dpg": "As-Salam Bank, Faisal Islamic Bank",
+    "ipg": "PayPal, Skrill",
+    "cards": "Visa,Mastercard",
+    "APMs": "Mobile Wallets (emerging)",
+    "Crypto": "Bitcoin,Ethereum",
+    "bankwire": "SWIFT,Local Bank Transfers"
+   },
+   {
+    "Country": "Suriname",
+    "dpg": "Hakrinbank, Finabank",
+    "ipg": "PayPal, Skrill",
+    "cards": "Visa,Mastercard",
+    "APMs": "Mobile Wallets (emerging)",
+    "Crypto": "Bitcoin,Ethereum",
+    "bankwire": "SWIFT,Local Bank Transfers"
+   },
+   {
+    "Country": "Sweden",
+    "dpg": "Swish, Klarna",
+    "ipg": "PayPal, Stripe",
+    "cards": "Visa,Mastercard,American Express",
+    "APMs": "BankID, Swedbank Pay,MobilePay",
+    "Crypto": "Bitcoin,Ethereum",
+    "bankwire": "SWIFT,SEPA"
+   },
+   {
+    "Country": "Switzerland",
+    "dpg": "PostFinance, TWINT",
+    "ipg": "PayPal, Stripe",
+    "cards": "Visa,Mastercard,American Express",
+    "APMs": "Apple Pay,Samsung Pay,Google Pay",
+    "Crypto": "Bitcoin,Ethereum",
+    "bankwire": "SWIFT,SEPA"
+   },
+   {
+    "Country": "Syria",
+    "dpg": "Bank of Syria, Syrian Islamic Bank",
+    "ipg": "PayPal, Skrill",
+    "cards": "Visa,Mastercard",
+    "APMs": "Mobile Wallets (emerging)",
+    "Crypto": "Bitcoin,Ethereum",
+    "bankwire": "SWIFT,Local Bank Transfers"
+   },
+   {
+    "Country": "Taiwan",
+    "dpg": "Line Pay, Jkopay",
+    "ipg": "PayPal, Stripe",
+    "cards": "Visa,Mastercard,JCB",
+    "APMs": "Apple Pay,Samsung Pay,Google Pay",
+    "Crypto": "Bitcoin,Ethereum",
+    "bankwire": "SWIFT,Local Bank Transfers"
+   },
+   {
+    "Country": "Tajikistan",
+    "dpg": "Tojik Sodirot Bank, Orienbank",
+    "ipg": "PayPal, Skrill",
+    "cards": "Visa,Mastercard",
+    "APMs": "Mobile Wallets (emerging)",
+    "Crypto": "Bitcoin,Ethereum",
+    "bankwire": "SWIFT,Local Bank Transfers"
+   },
+   {
+    "Country": "Tanzania",
+    "dpg": "M-Pesa Tanzania, CRDB Bank Payment Gateway",
+    "ipg": "PayPal, Skrill",
+    "cards": "Visa,Mastercard",
+    "APMs": "Tigo Pesa,Airtel Money, M-Pawa",
+    "Crypto": "Bitcoin,Ethereum",
+    "bankwire": "SWIFT,Local Bank Transfers"
+   },
+   {
+    "Country": "Thailand",
+    "dpg": "PromptPay, RabbitLINE Pay",
+    "ipg": "PayPal, Stripe",
+    "cards": "Visa,Mastercard,American Express",
+    "APMs": "TrueMoney Wallet, SCB Easy",
+    "Crypto": "Bitcoin,Ethereum",
+    "bankwire": "SWIFT,Local Bank Transfers"
+   },
+   {
+    "Country": "Togo",
+    "dpg": "Ecobank Togo, Orabank Togo",
+    "ipg": "PayPal, Skrill",
+    "cards": "Visa,Mastercard",
+    "APMs": "Mobile Wallets (T-Money)",
+    "Crypto": "Bitcoin,Ethereum",
+    "bankwire": "SWIFT,Local Bank Transfers"
+   },
+   {
+    "Country": "Tonga",
+    "dpg": "Bank of Tonga, MBf Bank Tonga",
+    "ipg": "PayPal, Skrill",
+    "cards": "Visa,Mastercard",
+    "APMs": "Mobile Wallets (emerging)",
+    "Crypto": "Bitcoin,Ethereum",
+    "bankwire": "SWIFT,Local Bank Transfers"
+   },
+   {
+    "Country": "Trinidad and Tobago",
+    "dpg": "Republic Bank Trinidad and Tobago, First Citizens Bank Trinidad and Tobago",
+    "ipg": "PayPal, Skrill",
+    "cards": "Visa,Mastercard",
+    "APMs": "Mobile Wallets (emerging)",
+    "Crypto": "Bitcoin,Ethereum",
+    "bankwire": "SWIFT,Local Bank Transfers"
+   },
+   {
+    "Country": "Tunisia",
+    "dpg": "Banque de Tunisie, Amen Bank Tunisia",
+    "ipg": "PayPal, Stripe",
+    "cards": "Visa,Mastercard",
+    "APMs": "Mobile Wallets (emerging)",
+    "Crypto": "Bitcoin,Ethereum",
+    "bankwire": "SWIFT,Local Bank Transfers"
+   },
+   {
+    "Country": "Turkey",
+    "dpg": "iyzico, PayTR",
+    "ipg": "PayPal, Stripe",
+    "cards": "Visa,Mastercard,American Express",
+    "APMs": "Halkbank Pay, Garanti BBVA Mobile",
+    "Crypto": "Bitcoin,Ethereum",
+    "bankwire": "SWIFT,Local Bank Transfers"
+   },
+   {
+    "Country": "Turkmenistan",
+    "dpg": "Halkbank, Vnesheconombank Turkmenistan",
+    "ipg": "PayPal, Skrill",
+    "cards": "Visa,Mastercard",
+    "APMs": "Mobile Wallets (emerging)",
+    "Crypto": "Bitcoin,Ethereum",
+    "bankwire": "SWIFT,Local Bank Transfers"
+   },
+   {
+    "Country": "Tuvalu",
+    "dpg": "Tuvalu National Bank, ANZ Tuvalu",
+    "ipg": "PayPal, Skrill",
+    "cards": "Visa,Mastercard",
+    "APMs": "Mobile Wallets (emerging)",
+    "Crypto": "Bitcoin,Ethereum",
+    "bankwire": "SWIFT,Local Bank Transfers"
+   },
+   {
+    "Country": "Uganda",
+    "dpg": "MTN Mobile Money Uganda, Airtel Money Uganda",
+    "ipg": "PayPal, Skrill",
+    "cards": "Visa,Mastercard",
+    "APMs": "Mobile Wallets (MTN, Airtel)",
+    "Crypto": "Bitcoin,Ethereum",
+    "bankwire": "SWIFT,Local Bank Transfers"
+   },
+   {
+    "Country": "Ukraine",
+    "dpg": "PrivatBank, Monobank",
+    "ipg": "PayPal, Stripe",
+    "cards": "Visa,Mastercard,American Express",
+    "APMs": "LiqPay, WayForPay,Google Pay",
+    "Crypto": "Bitcoin,Ethereum",
+    "bankwire": "SWIFT,SEPA"
+   },
+   {
+    "Country": "United Arab Emirates",
+    "dpg": "Dubai Islamic Bank, Emirates NBD",
+    "ipg": "PayPal, Stripe",
+    "cards": "Visa,Mastercard,American Express",
+    "APMs": "Apple Pay,Samsung Pay,Google Pay",
+    "Crypto": "Bitcoin,Ethereum",
+    "bankwire": "SWIFT,Local Bank Transfers"
+   },
+   {
+    "Country": "United Kingdom",
+    "dpg": "Barclays, Worldpay",
+    "ipg": "PayPal, Stripe",
+    "cards": "Visa,Mastercard,American Express",
+    "APMs": "Apple Pay,Google Pay, Klarna",
+    "Crypto": "Bitcoin,Ethereum",
+    "bankwire": "SWIFT,SEPA"
+   },
+   {
+    "Country": "United States",
+    "dpg": "PayPal, Stripe",
+    "ipg": "Worldpay, Authorize.Net",
+    "cards": "Visa,Mastercard,American Express",
+    "APMs": "Apple Pay,Google Pay, Venmo",
+    "Crypto": "Bitcoin,Ethereum",
+    "bankwire": "SWIFT,ACH"
+   },
+   {
+    "Country": "Uruguay",
+    "dpg": "BROU, Santander Uruguay",
+    "ipg": "PayPal, Skrill",
+    "cards": "Visa,Mastercard,American Express",
+    "APMs": "Mobile Wallets (emerging)",
+    "Crypto": "Bitcoin,Ethereum",
+    "bankwire": "SWIFT,Local Bank Transfers"
+   },
+   {
+    "Country": "Uzbekistan",
+    "dpg": "National Bank of Uzbekistan, Kapitalbank",
+    "ipg": "PayPal, Skrill",
+    "cards": "Visa,Mastercard",
+    "APMs": "Payme, Click, Uzcard",
+    "Crypto": "Bitcoin,Ethereum",
+    "bankwire": "SWIFT,Local Bank Transfers"
+   },
+   {
+    "Country": "Vanuatu",
+    "dpg": "National Bank of Vanuatu, BSP Vanuatu",
+    "ipg": "PayPal, Skrill",
+    "cards": "Visa,Mastercard",
+    "APMs": "Mobile Wallets (emerging)",
+    "Crypto": "Bitcoin,Ethereum",
+    "bankwire": "SWIFT,Local Bank Transfers"
+   },
+   {
+    "Country": "Vatican City (Holy See)",
+    "dpg": "Istituto per le Opere di Religione (IOR)",
+    "ipg": "PayPal, Skrill",
+    "cards": "Visa,Mastercard",
+    "APMs": "Mobile Wallets (emerging)",
+    "Crypto": "Bitcoin,Ethereum",
+    "bankwire": "SWIFT,Local Bank Transfers"
+   },
+   {
+    "Country": "Venezuela",
+    "dpg": "Banesco, Banco de Venezuela",
+    "ipg": "PayPal, Skrill",
+    "cards": "Visa,Mastercard",
+    "APMs": "Mobile Wallets (Patria, Zelle)",
+    "Crypto": "Bitcoin,Ethereum",
+    "bankwire": "SWIFT,Local Bank Transfers"
+   },
+   {
+    "Country": "Vietnam",
+    "dpg": "MoMo, ZaloPay",
+    "ipg": "PayPal, Stripe",
+    "cards": "Visa,Mastercard",
+    "APMs": "ViettelPay, Napas, Moca",
+    "Crypto": "Bitcoin,Ethereum",
+    "bankwire": "SWIFT,Local Bank Transfers"
+   },
+   {
+    "Country": "Yemen",
+    "dpg": "Central Bank of Yemen, Yemen Bank",
+    "ipg": "PayPal, Skrill",
+    "cards": "Visa,Mastercard",
+    "APMs": "Mobile Wallets (emerging)",
+    "Crypto": "Bitcoin,Ethereum",
+    "bankwire": "SWIFT,Local Bank Transfers"
+   },
+   {
+    "Country": "Zambia",
+    "dpg": "Zanaco, Barclays Zambia",
+    "ipg": "PayPal, Skrill",
+    "cards": "Visa,Mastercard",
+    "APMs": "Mobile Wallets (emerging)",
+    "Crypto": "Bitcoin,Ethereum",
+    "bankwire": "SWIFT,Local Bank Transfers"
+   },
+   {
+    "Country": "Zimbabwe",
+    "dpg": "EcoCash, CBZ Bank",
+    "ipg": "PayPal, Skrill",
+    "cards": "Visa,Mastercard",
+    "APMs": "ZIPIT, OneMoney, TeleCash",
+    "Crypto": "Bitcoin,Ethereum",
+    "bankwire": "SWIFT,Local Bank Transfers"
+   }
+    ]
+    }
