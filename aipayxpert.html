@@ -270,7 +270,7 @@
             transform: scale(1.3);
         }
 
-        .modal {
+        /* .modal {
             display: none;
             position: fixed;
             z-index: 1;
@@ -309,7 +309,8 @@
             margin: 0.5rem;
             padding: 1rem;
             border-radius: 1rem;
-            background-color: #07bafc;
+            background-color: #f9fafa;
+            box-shadow: 0 4px 8px rgba(255, 165, 0, 0.5);
         }
         @media (min-width: 576px) {
             .carddata {
@@ -361,7 +362,7 @@
         }
         
         .pgdata{
-            color: rgb(255, 255, 255);
+            color: rgb(12, 12, 12);
             font-weight: 1200;
             font-family: 'Times New Roman', Times, serif;
             font-style: italic;
@@ -378,6 +379,128 @@
             font-size: x-small;
             color: #99bcfa;
             font-family: 'Font-Name', sans-serif; 
+        } */
+        
+        .modal {
+            display: none;
+            position: fixed;
+            z-index: 1;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            overflow: auto;
+            overflow-y: hidden;
+            background-color: rgba(0,0,0,0.4);
+        }
+        .modal-content {
+            background-color: #ffffff;
+            margin: 15% auto;
+            border-radius: 1rem;
+            padding: 1rem;
+            width: 91%;
+            height: 30rem;
+            overflow: scroll;
+        }
+        .close {
+            color: #aaa;
+            float: right;
+            width: 2rem;
+            font-size: 28px;
+            font-weight: bold;
+        }
+        .close:hover,
+        .close:focus {
+            color: black;
+            text-decoration: none;
+            cursor: pointer;
+        }
+        .carddata {
+            width: 47%;
+            margin: 0.5rem;
+            padding-left: 10px;
+            border-radius: 1rem;
+            border: 2px solid orange;
+            background-color: #f9fafa;
+            box-shadow: 0 0px 12px rgba(236, 156, 7, 0.5);
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+        }
+        @media (min-width: 576px) {
+            .carddata {
+                width: 100%;
+                padding-left: 30px;
+            }
+        }
+        @media (max-width: 575.98px) {
+            .carddata {
+                width: 100%;
+                padding-left: 30px;
+            }
+        }
+        @media (min-width: 820px) {
+            .carddata {
+                width: 47%;
+                padding-left: 30px;
+            }
+        }
+        @media (min-width: 992px) {
+            .carddata {
+                width: 48%;
+                padding-left: 20px;
+            }
+        }
+        .payment-methods {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: nowrap;
+            /* margin: 1rem 0; */
+        }
+        .payment-method {
+            display: flex;
+            align-items: center;
+            margin: 0 1rem;
+        }
+        .payment-method img {
+            width: 30px;
+            height: 30px;
+            margin-right: 0.5rem;
+        }
+        .payment-method p{
+            font-size: xx-small;
+        }
+        .payment-details {
+            display: flex;
+            flex-direction: column;
+        }
+        @media (min-width: 820px) and (max-width: 995px) {
+            .payment-methods{
+                flex-direction: column;
+            }
+        }
+        @media (min-width: 0px) and (max-width: 500px) {
+            .payment-methods{
+                flex-direction: column;
+            }
+        }
+        .pgdata {
+            color: rgb(12, 12, 12);
+            font-weight: 1200;
+            font-family: 'Times New Roman', Times, serif;
+            font-style: italic;
+            font-size: 1.5rem;
+            text-align: center;
+        }
+        .pgdata:hover {
+            transform: scale(1.08);
+            transition: all 300ms ease-in-out;
+        }
+        .lighter-text {
+            font-weight: 100;
+            font-size: x-small;
+            color: #99bcfa;
+            font-family: 'Font-Name', sans-serif;
         }
     </style>
 </head>
@@ -723,7 +846,7 @@
     <script src="js/main.js"></script>
     <script>
 
-    document.addEventListener('DOMContentLoaded', () => {
+    document.addEventListener('DOMContentLoaded', () =>{
     const navigateToFormStep = (stepNumber) => {
         document.querySelectorAll(".form-step").forEach((formStepElement) => {
             formStepElement.classList.add("d-none");
@@ -951,9 +1074,31 @@
                     dpgTitle.textContent = 'Domestic Payment Gateways:';
                     cardDiv.appendChild(dpgTitle);
 
-                    const dpgList = document.createElement('h6');
-                    dpgList.classList.add('pgdata');
-                    dpgList.textContent = countryData.dpg;
+                    const dpgList = document.createElement('div');
+                    dpgList.classList.add('payment-methods');
+                    countryData.dpg.forEach(payment => {
+                        const paymentDiv = document.createElement('div');
+                        paymentDiv.classList.add('payment-method');
+
+                        const paymentLogo = document.createElement('img');
+                        paymentLogo.src = payment.logo;
+                        paymentDiv.appendChild(paymentLogo);
+
+                        const paymentDetails = document.createElement('div');
+                        paymentDetails.classList.add('payment-details');
+                        
+                        const paymentName = document.createElement('span');
+                        paymentName.textContent = payment.name;
+                        paymentDetails.appendChild(paymentName);
+
+                        const paymentReliability = document.createElement('p');
+                        paymentReliability.textContent = payment.reliability;
+                        paymentDetails.appendChild(paymentReliability);
+
+                        paymentDiv.appendChild(paymentDetails);
+
+                        dpgList.appendChild(paymentDiv);
+                    });
                     cardDiv.appendChild(dpgList);
                 }
 
@@ -962,9 +1107,31 @@
                     ipgTitle.textContent = 'International Payment Gateways:';
                     cardDiv.appendChild(ipgTitle);
 
-                    const ipgList = document.createElement('h6');
-                    ipgList.classList.add('pgdata');
-                    ipgList.textContent = countryData.ipg;
+                    const ipgList = document.createElement('div');
+                    ipgList.classList.add('payment-methods');
+                    countryData.ipg.forEach(payment => {
+                        const paymentDiv = document.createElement('div');
+                        paymentDiv.classList.add('payment-method');
+
+                        const paymentLogo = document.createElement('img');
+                        paymentLogo.src = payment.logo;
+                        paymentDiv.appendChild(paymentLogo);
+
+                        const paymentDetails = document.createElement('div');
+                        paymentDetails.classList.add('payment-details');
+                        
+                        const paymentName = document.createElement('span');
+                        paymentName.textContent = payment.name;
+                        paymentDetails.appendChild(paymentName);
+
+                        const paymentReliability = document.createElement('p');
+                        paymentReliability.textContent = payment.reliability;
+                        paymentDetails.appendChild(paymentReliability);
+
+                        paymentDiv.appendChild(paymentDetails);
+
+                        ipgList.appendChild(paymentDiv);
+                    });
                     cardDiv.appendChild(ipgList);
                 }
 
@@ -973,18 +1140,61 @@
                     dpgTitle.textContent = 'Domestic Payment Gateways:';
                     cardDiv.appendChild(dpgTitle);
 
-                    const dpgList = document.createElement('h6');
-                    dpgList.classList.add('pgdata');
-                    dpgList.textContent = countryData.dpg;
+                    const dpgList = document.createElement('div');
+                    dpgList.classList.add('payment-methods');
+                    countryData.dpg.forEach(payment => {
+                        const paymentDiv = document.createElement('div');
+                        paymentDiv.classList.add('payment-method');
+
+                        const paymentLogo = document.createElement('img');
+                        paymentLogo.src = payment.logo;
+                        paymentDiv.appendChild(paymentLogo);
+
+                        const paymentDetails = document.createElement('div');
+                        paymentDetails.classList.add('payment-details');
+                        
+                        const paymentName = document.createElement('span');
+                        paymentName.textContent = payment.name;
+                        paymentDetails.appendChild(paymentName);
+
+                        const paymentReliability = document.createElement('p');
+                        paymentReliability.textContent = payment.reliability;
+                        paymentDetails.appendChild(paymentReliability);
+
+                        paymentDiv.appendChild(paymentDetails);
+
+                        dpgList.appendChild(paymentDiv);
+                    });
                     cardDiv.appendChild(dpgList);
 
                     const ipgTitle = document.createElement('h5');
                     ipgTitle.textContent = 'International Payment Gateways:';
                     cardDiv.appendChild(ipgTitle);
 
-                    const ipgList = document.createElement('h6');
-                    ipgList.classList.add('pgdata');
-                    ipgList.textContent = countryData.ipg;
+                    const ipgList = document.createElement('div');
+                    ipgList.classList.add('payment-methods');
+                    countryData.ipg.forEach(payment => {
+                        const paymentDiv = document.createElement('div');
+                        paymentDiv.classList.add('payment-method');
+
+                        const paymentLogo = document.createElement('img');
+                        paymentLogo.src = payment.logo;
+                        paymentDiv.appendChild(paymentLogo);
+
+                        const paymentDetails = document.createElement('div');
+                        paymentDetails.classList.add('payment-details');
+                        
+                        const paymentName = document.createElement('span');
+                        paymentName.textContent = payment.name;
+                        paymentDetails.appendChild(paymentName);
+
+                        const paymentReliability = document.createElement('p');
+                        paymentReliability.textContent = payment.reliability;
+                        paymentDetails.appendChild(paymentReliability);
+
+                        paymentDiv.appendChild(paymentDetails);
+                        ipgList.appendChild(paymentDiv);
+                    });
                     cardDiv.appendChild(ipgList);
                 }
 
