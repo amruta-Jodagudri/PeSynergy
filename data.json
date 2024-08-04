@@ -500,7 +500,7 @@
       "Country": "Belgium",
       "dpg": [
         {
-          "name": "Bancontact",
+          "name": "Ignenico",
           "logo": "img/DomesticPaymentGatewayLogos/belgium-Ingenico.png",
           "reliability": "86% - 93% of merchants appreciate their reliability."
         },
@@ -562,7 +562,7 @@
       "Country": "Benin",
       "dpg": [
         {
-          "name": "GIM-UEMOA",
+          "name": "MTN Mobile Money",
           "logo": "img/DomesticPaymentGatewayLogos/benin-MTNMobileMoney.png",
           "reliability": "86% - 93% of merchants appreciate their reliability."
         },
@@ -594,12 +594,12 @@
       "dpg": [
         {
           "name": "Tpay",
-          "logo": "img/DomesticPaymentGatewayLogos/bhutan-tpay.png",
+          "logo": "img/DomesticPaymentGatewayLogos/bhutan-Tpay.png",
           "reliability": "86% - 93% of merchants appreciate their reliability."
         },
         {
-          "name": "GoPay",
-          "logo": "img/DomesticPaymentGatewayLogos/bhutan-gopay.png",
+          "name": "mBoB",
+          "logo": "img/DomesticPaymentGatewayLogos/bhutan-mBoB.jpg",
           "reliability": "73% - 85% of merchants appreciate their reliability."
         }
       ],
@@ -625,12 +625,12 @@
       "dpg": [
         {
           "name": "PagosNet",
-          "logo": "img/DomesticPaymentGatewayLogos/bolivia-pagosnet.png",
+          "logo": "img/DomesticPaymentGatewayLogos/bolivia-PagosNet.png",
           "reliability": "86% - 93% of merchants appreciate their reliability."
         },
         {
-          "name": "Tigo Money",
-          "logo": "img/DomesticPaymentGatewayLogos/bolivia-tigomoney.png",
+          "name": "ZonaVirtual",
+          "logo": "img/DomesticPaymentGatewayLogos/bolivia-ZonaVirtual.png",
           "reliability": "73% - 85% of merchants appreciate their reliability."
         }
       ],
@@ -1808,7 +1808,7 @@
         },
         {
           "name": "BSP",
-          "logo": "img/DomesticPaymentGatewayLogos/fiji-VodafoneM-PAiSA.webp",
+          "logo": "img/DomesticPaymentGatewayLogos/fiji-BSP.jpeg",
           "reliability": "73% - 85% of merchants appreciate their reliability."
         }
       ],
@@ -3688,7 +3688,7 @@
         },
         {
           "name": "Attijariwafa Bank Gateway",
-          "logo": "img/DomesticPaymentGatewayLogos/Morocco-Bank Al-Maghrib Payment Gateway.png",
+          "logo": "img/DomesticPaymentGatewayLogos/Morocco-Attijariwafa Bank Gateway.png",
           "reliability": "73% - 85% of merchants appreciate their reliability."
         }
       ],
